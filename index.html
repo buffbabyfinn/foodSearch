@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Nunito|Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+    <title>Dietary Search</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Dietary Search</h1>
+        <p>Got dietary restrictions, but still want to enjoy all the great restaurants your area has to offer? Let us help!</p>
+      </div>
+      <div class="dietaryRestrictionsList">
+        <form>
+          <input type="text" placeholder="Location - ex: City or Zip Code" class="form-control location">
+          <hr>
+          <input type="checkbox" value="glutenFree" id="glutenFree">
+          <label for="glutenFree">Gluten Free</label>
+
+          <input type="checkbox" value="vegetarian" id="vegetarian">
+          <label for="vegetarian">Vegetarian</label>
+
+          <input type="checkbox" value="pescatarian" id="pescatarian">
+          <label for="pescatarian">Pescatarian</label>
+
+          <input type="checkbox" value="dairyFree" id="dairyFree">
+          <label for="dairyFree">Dairy Free</label>
+
+          <input type="checkbox" value="nutAllergy" id="nutAllergy">
+          <label for="nutAllergy">Nut Allergy</label>
+
+          <input type="checkbox" value="jewish" id="jewish">
+          <label for="jewish">Kosher</label>
+
+          <input type="checkbox" value="muslim" id="muslim">
+          <label for="muslim">Halal</label>
+          <hr>
+          <input type="text" placeholder="Cuisine - ex: Mexican, Brunch, etc." class="form-control cuisine">
+          <br>
+          <button class="btn btn-md btn-success" id="submitButton">Find me food!</button>
+        </form>
+      </div>
+      <div class="restaurantResults">
+        <div class="exampleResult">
+          <div class="row">
+            <div class="col-md-7">
+              <h2 class="resultName">Restaurant Name</h2>
+              <h4 class="resultCuisine">Cuisine</h4>
+              <h4 class="resultLocation">1234 Location Street</h4>
+              <p class="resultInformation">Basic information about the restaurant will go in here if available.</p>
+            </div>
+            <div class="col-md-5 pull-right">
+              <ul>
+                <li>Specific menu items in here</li>
+                <li>Specific menu items in here</li>
+                <li>Specific menu items in here</li>
+                <li>Specific menu items in here</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

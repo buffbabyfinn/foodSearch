@@ -1,10 +1,20 @@
-var restaurant {
+var theOriginalDinerant {
 name: "The Original Dinerant",
 cuisine: ["Breakfast","Brunch","Diner"],
 rating: 4,
 price-range: 2,
 location: "string of lat-long?"
-restrictions: [{glutenfree: true}, {vegetarian: true}, {pescetarian: true}, {vegan: false}, {dairy-free: false}, {nut-allergy: true}, {hindu: false}, {jewish: true}, {muslim: true}]
+restrictions: [
+  glutenfree: true,
+  vegetarian: true,
+  pescetarian: true,
+  vegan: false,
+  dairy-free: false,
+  nut-allergy: true,
+  hindu: false,
+  jewish: true,
+  muslim: true
+  ]
 menu-items:[
 
   {dish-name: "Elvis Sighting", description: "", ingredients: ["brioche", "bacon", "bananas", "caramel sauce", "candied nuts"], glutenfree: false, vegetarian: false, pescetarian: false, vegan: false, dairy-free: false, nut-allergy: false, hindu: false, jewish: false, muslim: false, price: "10.00", picture: true}
@@ -49,7 +59,7 @@ menu-items:[
 
   {dish-name: "Crispy Fried Oysters", description: "", ingredients: ["oysters"], glutenfree: false, vegetarian: false, pescetarian: true, vegan: false, dairy-free: false, nut-allergy: true, hindu: false, jewish: false, muslim: true, price: "9.75", picture: true}
 
-  ,{dish-name: "Macroni and Cheese", description: "", ingredients: ["macaroni","cheese"], glutenfree: false, vegetarian: true, pescetarian: true, vegan: false, dairy-free: false, nut-allergy: true, hindu: false, jewish: true, muslim: true, price: "4.75", picture: true}
+  ,{dish-name: "Macaroni and Cheese", description: "", ingredients: ["macaroni","cheese"], glutenfree: false, vegetarian: true, pescetarian: true, vegan: false, dairy-free: false, nut-allergy: true, hindu: false, jewish: true, muslim: true, price: "4.75", picture: true}
 
   ,{dish-name: "Hushpuppies", description: "", ingredients: ["cornmeal","eggs","buttermilk","scallions"], glutenfree: false, vegetarian: true, pescetarian: true, vegan: false, dairy-free: false, nut-allergy: true, hindu: false, jewish: true, muslim: true, price: "6.50", picture: true}
 
