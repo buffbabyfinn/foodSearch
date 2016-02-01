@@ -6,6 +6,12 @@ h1, h2, h3, h4, h5 {
   font-family: 'Nunito', sans-serif !important;
 }
 
+.dietaryRestrictionsList {
+  padding: 1.5em;
+  border: 1px solid #EEE;
+  border-radius: 6px;
+}
+
 .dietaryRestrictionsList input[type=checkbox] {
   margin-left: 15px;
   line-height: 18px;
