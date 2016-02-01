@@ -39,19 +39,19 @@ menu-items:[
 }
 
 var restaurant {
-name: "The Waffle Window",
-cuisine: ["Breakfast","Brunch","Fast-Food"],
+name: "The Screen Door",
+cuisine: ["Southern","Brunch","Cajun"],
 rating: 5,
 price-range: 1,
 location: "string of lat-long?"
 restrictions: [{glutenfree: false}, {vegetarian: true}, {pescetarian: true}, {vegan: false}, {dairy-free: false}, {nut-allergy: true}, {hindu: false}, {jewish: true}, {muslim: true}]
 menu-items:[
 
-  {dish-name: "Tomato B's", description: "", ingredients: ["waffle","brie","basil","tomato","peach jam"], glutenfree: false, vegetarian: true, pescetarian: true, vegan: false, dairy-free: false, nut-allergy: true, hindu: false, jewish: true, muslim: true, price: "", picture: false}
+  {dish-name: "Crispy Fried Oysters", description: "", ingredients: ["oysters"], glutenfree: false, vegetarian: false, pescetarian: true, vegan: false, dairy-free: false, nut-allergy: true, hindu: false, jewish: false, muslim: true, price: "9.75", picture: true}
 
-  ,{dish-name: "Farm Fusion", description: "", ingredients: ["waffle","mushrooms","spinach","roasted pepper","tomato","chevre"], glutenfree: false, vegetarian: true, pescetarian: true, vegan: false, dairy-free: false, nut-allergy: true, hindu: false, jewish: true, muslim: true, price: "", picture: true}
+  ,{dish-name: "Macroni and Cheese", description: "", ingredients: ["macaroni","cheese"], glutenfree: false, vegetarian: true, pescetarian: true, vegan: false, dairy-free: false, nut-allergy: true, hindu: false, jewish: true, muslim: true, price: "4.75", picture: true}
 
-  ,{dish-name: "Nutella and Fresh Banana", description: "", ingredients: ["waffle","nutella","whipped cream","cinnamon sugar","fudge"], glutenfree: false, vegetarian: true, pescetarian: true, vegan: false, dairy-free: false, nut-allergy: false, hindu: false, jewish: true, muslim: true, price: "", picture: true}
+  ,{dish-name: "Hushpuppies", description: "", ingredients: ["cornmeal","eggs","buttermilk","scallions"], glutenfree: false, vegetarian: true, pescetarian: true, vegan: false, dairy-free: false, nut-allergy: true, hindu: false, jewish: true, muslim: true, price: "6.50", picture: true}
 
   ]
 }
@@ -70,4 +70,4 @@ menu-items:[
 
 // dish-name: "", description: "", ingredients: [], glutenfree: , vegetarian: , pescetarian: , vegan: , dairy-free: , nut-allergy: , hindu: , jewish: , muslim: , price: "", picture:
 //
-// dish-name: "", description: "", ingredients: [], glutenfree: , vegetarian: , pescetarian: , vegan: , dairy-free: , nut-allergy: , hindu: , jewish: , muslim: , price: "", picture: 
+// dish-name: "", description: "", ingredients: [], glutenfree: , vegetarian: , pescetarian: , vegan: , dairy-free: , nut-allergy: , hindu: , jewish: , muslim: , price: "", picture:
