@@ -40,8 +40,25 @@ function meetsRestrictions(userInput) {
       var restaurantMatch = userInput.every(function (val) {
         return restaurant.restrictions.indexOf(val) >= 0; });
       if (restaurantMatch === true){
-        newSearch.results.push(restaurant.name);
+        newSearch.results.push(restaurant);
       }
   });
     return newSearch.results;
 }
+
+$(document).ready(function() {
+  $("#submitButton").click(function(event) {
+    debugger;
+
+
+    var checkedBoxes = function() {
+      selectedRestrictions = [];
+      $("input:checkbox[name=dietaryOption]:checked").each(function() {
+        selectedRestrictions.push($(this).val());
+      });
+
+      console.log(selectedRestrictions);
+    };
+      event.preventDefault();
+  });
+});

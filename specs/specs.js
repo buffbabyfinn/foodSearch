@@ -1,5 +1,5 @@
 describe('meetsRestrictions', function(){
   it("locates restaurants that meet multiple criteria", function(){
-    expect(meetsRestrictions(["dairyFree", "nutFree"])).to.eql(["Bunk Sandwiches"]);
+    expect(meetsRestrictions(["dairyFree", "nutFree"])).to.eql([bunkSandwiches]);
   });
 });
