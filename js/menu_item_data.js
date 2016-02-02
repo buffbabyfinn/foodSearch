@@ -1,46 +1,25 @@
-//this file will be used to store all menu item objects for all restaurant objects
+//this file contains all menu item objects for all restaurant objects
 
 //Ataula
-// var T1 = {
-// name: "Nuestra Cesar",
-// description: "romaine lettuce, free range chicken, croutons, parmesan",
-// ingredients: "romaine lettuce, free range chicken, croutons, parmesan",
-// restrictions:
-// {
-// glutenFree: false,
-// vegetarian: false,
-// pescetarian: false,
-// vegan: false,
-// dairyFree: false,
-// nutFree: true,
-// hindu: false,
-// jewish: true,
-// muslim: true,
-// },
-// price: 12.00,
-// picture: null
-// }
-//
-// var T2 = {
-// name: "Remolacha",
-// description: "pickled beets, organic greens, citrus, torpedo onions, walnuts",
-// ingredients: "pickled beets, organic greens, citrus, torpedo onions, walnuts",
-// restrictions:
-// {
-// glutenFree: true,
-// vegetarian: true,
-// pescetarian: true,
-// vegan: true,
-// dairyFree: true,
-// nutFree: false,
-// hindu: true,
-// jewish: true,
-// muslim: true,
-// },
-// price: 11.00,
-// picture: null
-// }
+var R3_1 = {
+reference: "R3_1",
+name: "Nuestra Cesar",
+description: "romaine lettuce, free range chicken, croutons, parmesan",
+ingredients: "romaine lettuce, free range chicken, croutons, parmesan",
+restrictions: ['nutfree','kosher','halal'],
+price: 12,
+picture: null
+}
 
+var R3_2 = {
+reference: "R3_2",
+name: "Remolacha",
+description: "pickled beets, organic greens, citrus, torpedo onions, walnuts",
+ingredients: "pickled beets, organic greens, citrus, torpedo onions, walnuts",
+restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyfree','hindu','kosher','halal'],
+price: 11,
+picture: null
+}
 
 //the Original Dinerant
 var R4_1 = {
