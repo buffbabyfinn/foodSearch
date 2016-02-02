@@ -9,7 +9,7 @@ services: ["dinner"],
 rating: 5,
 price_range: 3,
 location: "45.560957, -122.634061",
-restrictions: ["glutenFree", "vegetarian", "pescetarian", "vegan", "dairyFree",  "hindu", "kosher", "halal"]
+restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree",  "hindu", "kosher", "halal"]
 }
 
 //Bunk Sandwiches Restaurant Object
@@ -19,7 +19,7 @@ cuisine: ["sandwiches","american"],
 services: ['lunch','dinner','brunch'],
 rating: 4,
 pricerange: 1,
-restrictions: ["vegan", "vegetarian", "pescatarian", "nutFree", "hindu", "kosher", "halal", "dairyFree"]
+restrictions: ["vegan", "vegetarian", "pescatarian", "nutAllergy", "hindu", "kosher", "halal", "dairyFree"]
 }
 
 //Ataula Restaurant Object
@@ -30,7 +30,7 @@ services: ["dinner"],
 rating: 5,
 price_range: 3,
 location: "45.535922, -122.699614",
-restrictions: ['glutenFree','vegetarian','pescetarian','vegan','nutFree','kosher','halal'] 
+restrictions: ['glutenFree','vegetarian','pescatarian','vegan','nutAllergy','kosher','halal'] 
 }
 
 //The Original Dinerant Restaurant Object
@@ -41,7 +41,7 @@ services: ["breakfast","brunch","lunch","dinner"],
 rating: 4,
 price_range: 2,
 location: '45.521709, -122.677001'
-restrictions: ['glutenfree','vegetarian','pescetarian','nutFree','kosher','halal']
+restrictions: ['glutenfree','vegetarian','pescatarian','nutAllergy','kosher','halal']
 
 // The Waffle Window Restaurant Object
 var R5 = {
@@ -51,7 +51,7 @@ services:["breakfast","brunch","lunch","dinner"],
 rating: 5,
 price-range: 1,
 location: ['45.513664, -122.626928','45.558935, -122.638172']
-restrictions: ['vegetarian','pescetarian','nutFree','kosher','halal']
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal']
 }
 
 //Screen Door Restaurant Object
@@ -62,7 +62,7 @@ services: ["breakfast","brunch","lunch","dinner"],
 rating: 5,
 price_range: 1,
 location: "45.523251, -122.641610",
-restrictions: ['vegetarian','pescetarian','nutFree','kosher','halal']
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal']
 }
 
 //Maurice Restaurant Object
@@ -73,7 +73,7 @@ services: ["lunch"],
 rating: 4,
 price_range: 3,
 location: "45.522952, -122.680460",
-restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal','nutFree']
+restrictions: ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy']
 }
 
 //Ox Restaurant Object
@@ -84,7 +84,7 @@ services: ["dinner"],
 rating: 4,
 price_range: 3,
 location: "45.539649, -122.661932",
-restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal','nutFree']
+restrictions: ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy']
 }
 
 //Le Pigeon Restaurant Object
@@ -95,7 +95,7 @@ services: ["dinner"],
 rating: 5,
 price_range: 3,
 location: "45.522963, -122.658022",
-restrictions: ['glutenFree','vegetarian','pescetarian','dairyFree','hindu','kosher','halal','nutFree']
+restrictions: ['glutenFree','vegetarian','pescatarian','dairyFree','hindu','kosher','halal','nutAllergy']
 }
 
 //Ava Gene's Restaurant Object
@@ -106,7 +106,7 @@ services: ["dinner"],
 rating: 4,
 price_range: 3,
 location: "45.505231, -122.629935",
-restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal','nutFree']
+restrictions: ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy']
 }
 
 //Paadee Restaurant Object
@@ -117,5 +117,5 @@ services: ["lunch","dinner"],
 rating: 3,
 price_range: 2,
 location: "45.523382, -122.637048",
-restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal','nutFree']
+restrictions: ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy']
 }
