@@ -1,3 +1,123 @@
+//this file is used to store the restaurant objects
+//this file does not include menu items contained within each restaurant object
+
+var mike_restaurant_1 = {
+name: "Natural Selection",
+cuisine: ["European"],
+rating: 5,
+price_range: 3,
+location: "45.560957, -122.634061",
+restrictions: ["glutenFree", "vegetarian", "pescetarian", "vegan", "dairyFree",  "hindu", "jewish", "muslim"]
+}
+
+var mike_restaurant_2 = {
+name: "Ataula",
+cuisine: ["Spanish"],
+rating: 5,
+price_range: 3,
+location: "45.535922, -122.699614",
+restrictions: 
+{
+glutenFree: true,
+vegetarian: true,
+pescetarian: true,
+vegan: true,
+dairyFree: true,
+nutFree: true,
+hindu: true,
+jewish: true,
+muslim: true,
+},
+menu_items:[T1,T2]
+}
+
+var restaurant1 = {
+name: "The Original Dinerant",
+cuisine: ["Breakfast","Brunch","Diner"],
+rating: 4,
+pricerange: 2,
+restrictions: ["glutenFree", "vegetarian", "pescetarian", "nutFree", "jewish, muslim"]
+}
+
+var bunkSandwiches = {
+name: "Bunk Sandwiches",
+cuisine: ["sandwiches","brunch"],
+rating: 4,
+pricerange: 1,
+restrictions: ["vegan", "vegetarian", "pescatarian", "nutFree", "hindu", "jewish", "muslim", "dairyFree"]
+}
+
+var restaurants = [mike_restaurant_1, bunkSandwiches, restaurant1];
+
+
+
+var T1 = {
+name: "Nuestra Cesar",
+description: "romaine lettuce, free range chicken, croutons, parmesan",
+ingredients: "romaine lettuce, free range chicken, croutons, parmesan",
+restrictions: 
+{
+glutenFree: false,
+vegetarian: false,
+pescetarian: false,
+vegan: false,
+dairyFree: false,
+nutFree: true,
+hindu: false,
+jewish: true,
+muslim: true,
+},
+price: 12.00,
+picture: null  
+}
+
+var T2 = {
+name: "Remolacha",
+description: "pickled beets, organic greens, citrus, torpedo onions, walnuts",
+ingredients: "pickled beets, organic greens, citrus, torpedo onions, walnuts",
+restrictions: 
+{
+glutenFree: true,
+vegetarian: true,
+pescetarian: true,
+vegan: true,
+dairyFree: true,
+nutFree: false,
+hindu: true,
+jewish: true,
+muslim: true,
+},
+price: 11.00,
+picture: null
+}
+
+
+
+var mike_restaurant_2 = {
+name: "Ataula",
+cuisine: ["Spanish"],
+rating: 5,
+price_range: 3,
+location: "45.535922, -122.699614",
+restrictions: 
+{
+glutenFree: true,
+vegetarian: true,
+pescetarian: true,
+vegan: true,
+dairyFree: true,
+nutFree: true,
+hindu: true,
+jewish: true,
+muslim: true,
+},
+menu_items:[T1,T2]
+}
+
+var restaurants = [mike_restaurant_1, mike_restaurant_2]
+
+
+
 var theOriginalDinerant {
 name: "The Original Dinerant",
 cuisine: ["Breakfast","Brunch","Diner"],
