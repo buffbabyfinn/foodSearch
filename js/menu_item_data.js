@@ -40,95 +40,59 @@
 // price: 11.00,
 // picture: null
 // }
-//
-// //the Original Dinerant
-// menu-items:[originalItem1, originalItem2, originalItem3, originalItem4, originalItem5]
-//
-//   var originalItem1 = {
-//     dish-name: "Elvis Sighting"
-//     description: "",
-//     ingredients: ["brioche",
-//     "bacon", "bananas", "caramel sauce", "candied nuts"],
-//     glutenfree: false,
-//     vegetarian: false,
-//     pescetarian: false,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: false,
-//     hindu: false,
-//     jewish: false,
-//     muslim: false,
-//     price: "10.00",
-//     picture: true
-//   }
-//
-//   var originalItem2 = {
-//     dish-name: "Creme Brulee French Toast",
-//     description: "",
-//     ingredients: ["brioche"],
-//     glutenfree: false,
-//     vegetarian: true,
-//     pescetarian: true,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: true,
-//     hindu: false,
-//     jewish: true,
-//     muslim: true,
-//     price: "9.00",
-//     picture: true
-//   }
-//
-//   var originalItem3 = {
-//     dish-name: "Tofu Hash",
-//     description: "",
-//     ingredients: ["eggs","tofu","potatoes","seasonal vegetables","toast"],
-//     glutenfree: false,
-//     vegetarian: true,
-//     pescetarian: true,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: true,
-//     hindu: false,
-//     jewish: true,
-//     muslim: true,
-//     price: "11.00",
-//     picture: true
-//   }
-//
-//   var originalItem4 = {
-//     dish-name: "Veggie Sausage Scramble",
-//     description: "",
-//     ingredients: ["vegan sausage","eggs","cheddar","greens","tomato confit"], glutenfree: false,
-//     vegetarian: true,
-//     pescetarian: true,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: true,
-//     hindu: false,
-//     jewish: true,
-//     muslim: true,
-//     price: "11.00",
-//     picture: true
-//   }
-//
-//   var originalItem5 = {
-//     dish-name: "Oregon Salad",
-//     description: "",
-//     ingredients: ["greens", "beets","pear","hazelnut","chevre","sherry vinaigrette"], glutenfree: true,
-//     vegetarian: true,
-//     pescetarian: true,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: false,
-//     hindu: false,
-//     jewish: true,
-//     muslim: false,
-//     price: "13.00",
-//     picture: true
-//     }
-// }
-//
+
+
+//the Original Dinerant
+var R4_1 = {
+reference: "R4_1",
+name: "Elvis Sighting",
+description: "",
+ingredients: ["brioche", "bacon", "bananas", "caramel sauce", "candied nuts"],
+restrictions: [],
+price: 10,
+picture: true
+}
+
+var R4_2 = {
+reference: "R4_2",
+dish-name: "Creme Brulee French Toast",
+description: "",
+ingredients: ["brioche"],
+restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
+price: 9,
+picture: true
+}
+
+var R4_3 = {
+reference: "R4_3",
+dish-name: "Tofu Hash",
+description: "",
+ingredients: ["eggs","tofu","potatoes","seasonal vegetables","toast"],
+restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
+price: 11,
+picture: true
+}
+
+var R4_4 = {
+reference: "R4_4",
+dish-name: "Veggie Sausage Scramble",
+description: "",
+ingredients: ["vegan sausage","eggs","cheddar","greens","tomato confit"], 
+restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
+price: 11,
+picture: true
+}
+
+var R4_5 = {
+reference: "R4_5",
+dish-name: "Oregon Salad",
+description: "",
+ingredients: ["greens", "beets","pear","hazelnut","chevre","sherry vinaigrette"], 
+restrictions: ['glutenfree','vegetarian','pescetarian','kosher','halal'],
+price: 13.00,
+picture: true
+}
+
 //The Waffle Window
 var R5_1 = {
 reference: "R5_1",
@@ -151,7 +115,7 @@ picture: true
 }
 
 var R5_3 = {
-reference: "R5_3"
+reference: "R5_3",
 name: "Nutella and Fresh Banana",
 description: "",
 ingredients: ["waffle","nutella","whipped cream","cinnamon sugar","fudge"],
@@ -210,7 +174,7 @@ description: "or Peanut Butter & Nutella or Nutella & Jelly. Served with kettle 
 ingredients: ["peanut butter", "nutella", "jelly", "kettle chips," "bread"],
 restrictions: ['vegetarian','pescatarian','hindu','kosher','halal','dairyfree'],
 price: 5,
-picture: true,
+picture: true
 }
 
 var R2_3 = {
@@ -220,7 +184,7 @@ description: "Served with kettle chips. Add tomato soup 2.00.",
 ingredients: ["cheese", "tomato", "bread"],
 restrictions: ['vegetarian','pescatarian','nutallergy','hindu','kosher','halal'],
 price: 6,
-picture: true, 
+picture: true 
 }
 
 //Natural Selection
@@ -230,7 +194,7 @@ name: "coconut curry soup",
 description: "lemongrass, lime, brussels sprouts, carrot, herb oil",
 ingredients: "lemongrass, lime, brussels sprouts, carrot, herb oil",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25,
+price: 11.25
 }
 
 var R1_2 = {
@@ -239,7 +203,7 @@ name: "belgian endive & treviso salad",
 description: "asian pear, radish, peppers, dried cherries, dijon",
 ingredients: "asian pear, radish, peppers, dried cherries, dijon",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25,
+price: 11.25
 }
 
 var R1_3 = {
@@ -257,7 +221,7 @@ name: "squash cake with caramelized apples",
 description: "apricot, pumpkin mousse, raspberry, almond",
 ingredients: "apricot, pumpkin mousse, raspberry, almond",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "kosher", "halal"],
-price: 11.25,
+price: 11.25
 }
 
 var R1_5 = {
@@ -266,7 +230,7 @@ name: "chestnut tagliatelle pasta",
 description: "lemon, shallot, balsamic, creamed greens",
 ingredients: "lemon, shallot, balsamic, creamed greens",
 restrictions: ["vegetarian", "pescatarian", "kosher", "halal"],
-price: 11.25,
+price: 11.25
 }
 
 var R1_6 = {
@@ -275,7 +239,7 @@ name: "citrus & delicata squash salad",
 description: "watercress, olives, dates, creamy sherry dressing",
 ingredients: "watercress, olives, dates, creamy sherry dressing",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25,
+price: 11.25
 }
 
 var R1_7 = {
@@ -293,5 +257,5 @@ name: "lemon tapioca parfait",
 description: "huckleberry, coconut, cinnamon cookie",
 ingredients: "huckleberry, coconut, cinnamon cookie",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25,
+price: 11.25
 }
