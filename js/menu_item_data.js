@@ -239,61 +239,38 @@
 //   }
 // }
 //
-// //Bunk Sandwiches
-//
-// menu-items:[bunkItem1, bunkItem2, bunkItem3]
-//
-//   var bunkItem1 = {
-//     name: "Egg & Cheese",
-//     description: "on a hard roll",
-//     ingredients: ["egg", "cheese", "bread roll"],
-//     glutenfree: false,
-//     vegan: false,
-//     vegetarian: true,
-//     pescatarian: true,
-//     nutallergy: true,
-//     hindu: false,
-//     jewish: true,
-//     muslim: true,
-//     dairyfree: false
-//     price: 5,
-//     picture: true,
-//   }
-//
-//   var bunkItem2 = {
-//     name: "Peanut Butter & Jelly",
-//     description: "or Peanut Butter & Nutella or Nutella & Jelly. Served with kettle chips.",
-//     ingredients: ["peanut butter", "nutella", "jelly", "kettle chips," "bread"],
-//     glutenfree: false,
-//     vegan: false,
-//     vegetarian: true,
-//     pescatarian: true,
-//     nutallergy: false,
-//     hindu: true,
-//     jewish: true,
-//     muslim: true,
-//     dairyfree: true
-//     price: 5,
-//     picture: true,
-//   }
-//
-//   var bunkItem3 = {
-//     name: "Grilled Tillamook Cheddar",
-//     description: "Served with kettle chips. Add tomato soup 2.00.",
-//     ingredients: ["cheese", "tomato", "bread"],
-//     glutenfree: false,
-//     vegan: false,
-//     vegetarian: true,
-//     pescatarian: true,
-//     nutallergy: true,
-//     hindu: true,
-//     jewish: true,
-//     muslim: true,
-//     dairyfree: false,
-//     price: 6,
-//     picture: true,
-//   }
-// }
+
+
+//Bunk Sandwiches
+var R2_1 = {
+reference: "R2_1",
+name: "Egg & Cheese",
+description: "on a hard roll",
+ingredients: ["egg", "cheese", "bread roll"],
+restrictions: ['vegetarian','pescatarian','nutallergy','kosher','halal']
+price: 5,
+picture: true,
+}
+
+var R2_2 = {
+reference: "R2_2"
+name: "Peanut Butter & Jelly",
+description: "or Peanut Butter & Nutella or Nutella & Jelly. Served with kettle chips.",
+ingredients: ["peanut butter", "nutella", "jelly", "kettle chips," "bread"],
+restrictions: ['vegetarian','pescatarian','hindu','kosher','halal','dairyfree'],
+price: 5,
+picture: true,
+}
+
+var R2_3 = {
+reference: "R2_3",
+name: "Grilled Tillamook Cheddar",
+description: "Served with kettle chips. Add tomato soup 2.00.",
+ingredients: ["cheese", "tomato", "bread"],
+restrictions: ['vegetarian','pescatarian','nutallergy','hindu','kosher','halal'],
+price: 6,
+picture: true, 
+}
 
 //Natural Selection
 var R1_1 = {
