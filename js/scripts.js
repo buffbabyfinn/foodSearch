@@ -1,0 +1,49 @@
+
+var restaurants = [mike_restaurant_1, bunkSandwiches, restaurant1];
+
+
+function Search(limits, results) {
+  // this.location = location;
+  // this.cuisine = cuisine;
+  this.limits = [];
+  this.results = [];
+}
+
+
+var newSearch = new Search();
+
+function meetsRestrictions(userInput) {
+    restaurants.forEach(function(restaurant) {
+      var restaurantMatch = userInput.every(function (val) {
+        return restaurant.restrictions.indexOf(val) >= 0; });
+      if (restaurantMatch === true){
+        debugger;
+        newSearch.results.push(restaurant);
+      }
+  });
+    return newSearch.results;
+}
+
+
+$(document).ready(function() {
+
+  $("#dietaryRestrictionsList").submit(function(event) {
+    $(".exampleResult").hide();
+
+
+
+    $("input:checkbox[name=dietaryOption]:checked").each(function() {
+      newSearch.limits.push($(this).val());
+    });
+
+    meetsRestrictions(newSearch.limits);
+
+    newSearch.results.forEach(function(restaurant) {
+      $(".restaurantResults").append("<div class='exampleResult'><div class='row'><div class='col-md-7'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>1234 Location Street</h4><p class='resultInformation'>Basic information about the restaurant will go in here if available.</p></div><div class='col-md-5 pull-right'><ul></ul></div></div></div></div>");
+    });
+
+    newSearch.results = [];
+    newSearch.limits = [];
+    event.preventDefault();
+  });
+});

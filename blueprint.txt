@@ -1,0 +1,37 @@
+searching:
+
+cuisine
+dietary restriction (checkboxes)
+location
+
+
+var restaurant {
+name: "string",
+cuisine: ["string","string","string"]
+rating: integer
+price-range: integer
+location: "string of lat-long?"
+restrictions: [{glutenfree: true/false},{...},{...}]
+menu-items:[{},{},{}]
+}
+
+
+
+
+
+
+name: "The Original Dinerant"
+cuisine: "Brunch" "Diner" "Breakfast"
+rating:
+price range:
+location: lat-long
+restrictions: glutenfree, vegetarian, pescetarian, vegan, dairy free, nut allergy, hindu, jewish, muslim
+menu: [menu objects]
+
+menu object:
+dish name: "Elvis Sighting"
+description: ""
+ingredients: brioche, bacon, bananas, caramel sauce, candied nuts
+glutenfree: false
+price: ""
+picture: ""
