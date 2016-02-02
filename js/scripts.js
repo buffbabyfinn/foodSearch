@@ -1,4 +1,5 @@
 
+
 var restaurants = [mike_restaurant_1, bunkSandwiches, restaurant1];
 
 
@@ -17,7 +18,6 @@ function meetsRestrictions(userInput) {
       var restaurantMatch = userInput.every(function (val) {
         return restaurant.restrictions.indexOf(val) >= 0; });
       if (restaurantMatch === true){
-        debugger;
         newSearch.results.push(restaurant);
       }
   });
@@ -29,7 +29,6 @@ $(document).ready(function() {
 
   $("#dietaryRestrictionsList").submit(function(event) {
     $(".exampleResult").hide();
-
 
 
     $("input:checkbox[name=dietaryOption]:checked").each(function() {
@@ -44,6 +43,7 @@ $(document).ready(function() {
 
     newSearch.results = [];
     newSearch.limits = [];
+
     event.preventDefault();
   });
 });
