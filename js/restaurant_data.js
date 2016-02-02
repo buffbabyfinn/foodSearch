@@ -1,5 +1,4 @@
 //this file is used to store the restaurant objects
-//this file does not include menu items contained within each restaurant object
 
 //Natural Selection Restaurant Object
 var R1 = {
