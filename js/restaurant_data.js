@@ -58,3 +58,13 @@ price_range: 1,
 location: "45.523251, -122.641610",
 restrictions: ['vegetarian','pescetarian','nutFree','kosher','halal']
 }
+
+//Maurice Restaurant Object
+var R7 = {
+name: "Maurice",
+cuisine: ["French","Nordic","Lunch"],
+rating: 4,
+price_range: 3,
+location: "45.522952, -122.680460",
+restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal']
+}
