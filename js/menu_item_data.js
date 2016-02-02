@@ -129,60 +129,37 @@
 //     }
 // }
 //
-// //The Waffle Window
-// menu-items:[waffleItem1, waffleItem2, waffleItem3]
-//
-//   var waffleItem1 = {
-//     dish-name: "Tomato B's",
-//     description: "",
-//     ingredients: ["waffle","brie","basil","tomato","peach jam"], glutenfree: false,
-//     vegetarian: true,
-//     pescetarian: true,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: true,
-//     hindu: false,
-//     jewish: true,
-//     muslim: true,
-//     price: "",
-//     picture: false
-//   }
-//
-//   var waffleItem2 = {
-//     dish-name: "Farm Fusion",
-//     description: "",
-//     ingredients: ["waffle","mushrooms","spinach","roasted pepper","tomato","chevre"],
-//     glutenfree: false,
-//     vegetarian: true,
-//     pescetarian: true,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: true,
-//     hindu: false,
-//     jewish: true,
-//     muslim: true,
-//     price: "",
-//     picture: true
-//   }
-//
-//   var waffleItem3 = {
-//     dish-name: "Nutella and Fresh Banana",
-//     description: "",
-//     ingredients: ["waffle","nutella","whipped cream","cinnamon sugar","fudge"],
-//     glutenfree: false,
-//     vegetarian: true,
-//     pescetarian: true,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: false,
-//     hindu: false,
-//     jewish: true,
-//     muslim: true,
-//     price: "",
-//     picture: true
-//   }
-// }
-//
+//The Waffle Window
+var R5_1 = {
+reference: "R5_1",
+name: "Tomato B's",
+description: "",
+ingredients: ["waffle","brie","basil","tomato","peach jam"],
+restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
+price: "",
+picture: false
+}
+
+var R5_2 = {
+reference: "R5_2",
+name: "Farm Fusion",
+description: "",
+ingredients: ["waffle","mushrooms","spinach","roasted pepper","tomato","chevre"],
+restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
+price: "",
+picture: true
+}
+
+var R5_3 = {
+reference: "R5_3"
+name: "Nutella and Fresh Banana",
+description: "",
+ingredients: ["waffle","nutella","whipped cream","cinnamon sugar","fudge"],
+restrictions: ['vegetarian','pescetarian','kosher','halal'],
+price: "",
+picture: true
+}
+
 
 //Screen Door
 var R6_1 = {
