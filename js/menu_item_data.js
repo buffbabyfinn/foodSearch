@@ -183,63 +183,37 @@
 //   }
 // }
 //
-// //Screen Door
-//
-// menu-items:[screenItem1, screenItem2, screenItem3]
-//
-//   var screenItem1 = {
-//     dish-name: "Crispy Fried Oysters",
-//     description: "",
-//     ingredients: ["oysters"],
-//     glutenfree: false,
-//     vegetarian: false,
-//     pescetarian: true,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: true,
-//     hindu: false,
-//     jewish: false,
-//     muslim: true,
-//     price: "9.75",
-//     picture: true
-//   }
-//
-//   var screenItem2 = {
-//     dish-name: "Macroni and Cheese",
-//     description: "",
-//     ingredients: ["macaroni","cheese"],
-//     glutenfree: false,
-//     vegetarian: true,
-//     pescetarian: true,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: true,
-//     hindu: false,
-//     jewish: true,
-//     muslim: true,
-//     price: "4.75",
-//     picture: true
-//   }
-//
-//   var screenItem3 = {
-//     dish-name: "Hushpuppies",
-//     description: "",
-//     ingredients: ["cornmeal","eggs","buttermilk","scallions"],
-//     glutenfree: false,
-//     vegetarian: true,
-//     pescatarian: true,
-//     vegan: false,
-//     dairy-free: false,
-//     nut-allergy: true,
-//     hindu: false,
-//     jewish: true,
-//     muslim: true,
-//     price: "6.50",
-//     picture: true
-//   }
-// }
-//
 
+//Screen Door
+var R6_1 = {
+reference: "R6_1",
+name: "Crispy Fried Oysters",
+description: "",
+ingredients: ["oysters"],
+restrictions: ['pescetarian','nutallergy','halal'],
+price: 9.75,
+picture: true
+}
+
+var R6_2 = {
+reference: "R6_2",
+name: "Macroni and Cheese",
+description: "",
+ingredients: ["macaroni","cheese"],
+restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
+price: 4.75,
+picture: true
+}
+
+var R6_3 = {
+reference: "R6_3",
+name: "Hushpuppies",
+description: "",
+ingredients: ["cornmeal","eggs","buttermilk","scallions"],
+restrictions: ['vegetarian','pescatarian','nutallergy','kosher','halal'],
+price: 6.50,
+picture: true
+}
 
 //Bunk Sandwiches
 var R2_1 = {
@@ -247,13 +221,13 @@ reference: "R2_1",
 name: "Egg & Cheese",
 description: "on a hard roll",
 ingredients: ["egg", "cheese", "bread roll"],
-restrictions: ['vegetarian','pescatarian','nutallergy','kosher','halal']
+restrictions: ['vegetarian','pescatarian','nutallergy','kosher','halal'],
 price: 5,
 picture: true,
 }
 
 var R2_2 = {
-reference: "R2_2"
+reference: "R2_2",
 name: "Peanut Butter & Jelly",
 description: "or Peanut Butter & Nutella or Nutella & Jelly. Served with kettle chips.",
 ingredients: ["peanut butter", "nutella", "jelly", "kettle chips," "bread"],
