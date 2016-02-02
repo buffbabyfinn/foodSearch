@@ -4,7 +4,7 @@ cuisine: ["European"],
 rating: 5,
 price_range: 3,
 location: "45.560957, -122.634061",
-restrictions: ["glutenFree", "vegetarian", "pescetarian", "vegan", "dairyFree",  "hindu", "jewish", "muslim"]
+restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree",  "hindu", "jewish", "muslim"]
 }
 
 var restaurant1 = {
@@ -12,7 +12,7 @@ name: "The Original Dinerant",
 cuisine: ["Breakfast","Brunch","Diner"],
 rating: 4,
 pricerange: 2,
-restrictions: ["glutenFree", "vegetarian", "pescetarian", "nutFree", "jewish, muslim"]
+restrictions: ["glutenFree", "vegetarian", "pescatarian", "nutAllergy", "jewish, muslim"]
 }
 
 var bunkSandwiches = {
@@ -20,18 +20,19 @@ name: "Bunk Sandwiches",
 cuisine: ["sandwiches","brunch"],
 rating: 4,
 pricerange: 1,
-restrictions: ["vegan", "vegetarian", "pescatarian", "nutFree", "hindu", "jewish", "muslim", "dairyFree"]
+restrictions: ["vegan", "vegetarian", "pescatarian", "nutAllergy", "hindu", "jewish", "muslim", "dairyFree"]
 }
 
 var restaurants = [mike_restaurant_1, bunkSandwiches, restaurant1];
 
 
-function Search (location, cuisine, limits, results) {
-  this.location = location;
-  this.cuisine = cuisine;
-  this.limits= limits;
+function Search(limits, results) {
+  // this.location = location;
+  // this.cuisine = cuisine;
+  this.limits = [];
   this.results = [];
 }
+
 
 var newSearch = new Search();
 
@@ -46,19 +47,20 @@ function meetsRestrictions(userInput) {
     return newSearch.results;
 }
 
+
 $(document).ready(function() {
-  $("#submitButton").click(function(event) {
-    debugger;
+
+  $("#dietaryRestrictionsList").submit(function(event) {
+
+    var newSearch = new Search();
+
+    $("input:checkbox[name=dietaryOption]:checked").each(function() {
+      newSearch.limits.push($(this).val());
+    });
 
 
-    var checkedBoxes = function() {
-      selectedRestrictions = [];
-      $("input:checkbox[name=dietaryOption]:checked").each(function() {
-        selectedRestrictions.push($(this).val());
-      });
-
-      console.log(selectedRestrictions);
-    };
-      event.preventDefault();
+    console.log(newSearch.limits);
+    console.log(meetsRestrictions(newSearch.limits));
+    event.preventDefault();
   });
 });
