@@ -23,6 +23,13 @@ function meetsRestrictions(userInput) {
   });
     return newSearch.results;
 }
+function menuItemParser() {
+  restaurants.menuItems.forEach(function(item) {
+      return item.name;
+  });
+}
+
+
 
 
 $(document).ready(function() {
@@ -38,14 +45,16 @@ $(document).ready(function() {
     meetsRestrictions(newSearch.limits);
 
     newSearch.results.forEach(function(restaurant) {
-      $(".restaurantResults").append("<div class='exampleResult " + restaurant.reference +"'><div class='row'><div class='col-md-7'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>1234 Location Street</h4><p class='resultInformation'>Basic information about the restaurant will go in here if available.</p></div><div class='col-md-5 pull-right'><ul></ul></div></div></div></div>");
+      $(".restaurantResults").append("<div class='exampleResult " + restaurant.reference +"'><div class='row'><div class='col-md-7'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>1234 Location Street</h4><p class='resultInformation'>Basic information about the restaurant will go in here if available.</p></div><div class='col-md-5 pull-right'><ul>" + restaurant.menuItems + "</ul></div></div></div></div>");
     });
 
     newSearch.results = [];
     newSearch.limits = [];
 
     event.preventDefault();
-  });
 
-  $(."exampleResult").click
+    // $(".exampleResult").click(function() {
+    //   this.remove();
+    // });
+  });
 });

@@ -10,7 +10,8 @@ services: ["dinner"],
 rating: 5,
 price_range: 3,
 location: "45.560957, -122.634061",
-restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree",  "hindu", "kosher", "halal"]
+restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree",  "hindu", "kosher", "halal"],
+menuItems: [A1, A2, A3, A4, B1, B2, B3, B4]
 }
 
 //Bunk Sandwiches Restaurant Object
