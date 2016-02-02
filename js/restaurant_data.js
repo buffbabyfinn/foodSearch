@@ -66,5 +66,25 @@ cuisine: ["French","Nordic","Lunch"],
 rating: 4,
 price_range: 3,
 location: "45.522952, -122.680460",
-restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal']
+restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal','nutFree']
+}
+
+//Ox Restaurant Object
+var R8 = {
+name: "Ox",
+cuisine: ["Agentine","Dinner"]
+rating: 4,
+price_range: 3,
+location: "45.539649, -122.661932",
+restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal','nutFree']
+}
+
+//Le Pigeon Restaurant Object
+var R9 = {
+name: "Le Pigeon",
+cuisine: ["French","Dinner"]
+rating: 5,
+price_range: 3,
+location: "45.522963, -122.658022",
+restrictions: ['glutenFree','vegetarian','pescetarian','dairyFree','hindu','kosher','halal','nutFree']
 }
