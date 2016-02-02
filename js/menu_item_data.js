@@ -295,10 +295,9 @@
 //   }
 // }
 
-//Natural Selection]
-
-
-var A1 = {
+//Natural Selection
+var R1_1 = {
+reference: "R1_1",
 name: "coconut curry soup",
 description: "lemongrass, lime, brussels sprouts, carrot, herb oil",
 ingredients: "lemongrass, lime, brussels sprouts, carrot, herb oil",
@@ -306,7 +305,8 @@ restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", 
 price: 11.25,
 }
 
-var A2 = {
+var R1_2 = {
+reference: "R1_2",
 name: "belgian endive & treviso salad",
 description: "asian pear, radish, peppers, dried cherries, dijon",
 ingredients: "asian pear, radish, peppers, dried cherries, dijon",
@@ -314,7 +314,8 @@ restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", 
 price: 11.25,
 }
 
-var A3 = {
+var R1_3 = {
+reference: "R1_3",	
 name: "crispy polenta with trumpet royale",
 description: "leek, parsnip, carrot, breakfast radish",
 ingredients: "leek, parsnip, carrot, breakfast radish",
@@ -322,7 +323,8 @@ restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", 
 price: 11.25
 }
 
-var A4 = {
+var R1_4 = {
+reference: "R1_4",
 name: "squash cake with caramelized apples",
 description: "apricot, pumpkin mousse, raspberry, almond",
 ingredients: "apricot, pumpkin mousse, raspberry, almond",
@@ -330,7 +332,8 @@ restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", 
 price: 11.25,
 }
 
-var B1 = {
+var R1_5 = {
+reference: "R1_5",
 name: "chestnut tagliatelle pasta",
 description: "lemon, shallot, balsamic, creamed greens",
 ingredients: "lemon, shallot, balsamic, creamed greens",
@@ -338,7 +341,8 @@ restrictions: ["vegetarian", "pescatarian", "kosher", "halal"],
 price: 11.25,
 }
 
-var B2 = {
+var R1_6 = {
+reference: "R1_6",
 name: "citrus & delicata squash salad",
 description: "watercress, olives, dates, creamy sherry dressing",
 ingredients: "watercress, olives, dates, creamy sherry dressing",
@@ -346,7 +350,8 @@ restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", 
 price: 11.25,
 }
 
-var B3 = {
+var R1_7 = {
+reference: "R1_7",
 name: "creamy herbed risotto",
 description: "braised red cabbage, salsify, sunchoke, cider",
 ingredients: "braised red cabbage, salsify, sunchoke, cider",
@@ -354,7 +359,8 @@ restrictions: ["glutenFree", "vegetarian", "pescatarian", "dairyFree", "nutAller
 price: 11.25
 }
 
-var B4 = {
+var R1_8 = {
+reference: "R1_8",
 name: "lemon tapioca parfait",
 description: "huckleberry, coconut, cinnamon cookie",
 ingredients: "huckleberry, coconut, cinnamon cookie",
