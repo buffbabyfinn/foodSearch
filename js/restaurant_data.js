@@ -88,3 +88,13 @@ price_range: 3,
 location: "45.522963, -122.658022",
 restrictions: ['glutenFree','vegetarian','pescetarian','dairyFree','hindu','kosher','halal','nutFree']
 }
+
+//Ava Gene's Restaurant Object
+var R10 = {
+name: "Ava Gene's",
+cuisine: ["Italian","Dinner"]
+rating: 4,
+price_range: 3,
+location: "45.505231, -122.629935",
+restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal','nutFree']
+}
