@@ -98,3 +98,13 @@ price_range: 3,
 location: "45.505231, -122.629935",
 restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal','nutFree']
 }
+
+//Paadee Restaurant Object
+var R11 = {
+name: "Paadee",
+cuisine: ["Thai","Dinner","Lunch"]
+rating: 3,
+price_range: 2,
+location: "45.523382, -122.637048",
+restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyFree','hindu','kosher','halal','nutFree']
+}
