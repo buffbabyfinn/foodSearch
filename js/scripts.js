@@ -1,6 +1,7 @@
 //restaurants is an array filled with objects defined in restaurant_data.js
-var restaurants = [R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11];
-
+var restaurants = [R1, R2];
+  // R2, R3, R4, R5, R6, R7, R8, R9, R10, R11];
+  var menuArray = [];
 //Search object constructor
 function Search(limits, results) {
   // this.location = location;
@@ -36,13 +37,16 @@ function meetsRestrictions(userInput) {
   });
     return newSearch.results;
 }
-function menuItemParser() {
-  restaurants.menuItems.forEach(function(item) {
-      return item.name;
-  });
-}
 
 
+// function menuItemParser(restaurantItems) {
+//   debugger;
+//   restaurantItems.forEach(function(item) {
+//     menuArray.push(item.name);
+//   });
+//     menuArray = menuArray.toString();
+//     return menuArray;
+// }
 
 
 //check to make sure document is loaded
@@ -64,20 +68,28 @@ $(document).ready(function() {
     meetsRestrictions(newSearch.limits);
 
     //for each element in the result array (each element is a restaurant object), append it to the DOM
+
+
+
     newSearch.results.forEach(function(restaurant) {
-      $(".restaurantResults").append("<div class='exampleResult " + restaurant.reference +"'><div class='row'><div class='col-md-7'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>1234 Location Street</h4><p class='resultInformation'>Basic information about the restaurant will go in here if available.</p></div><div class='col-md-5 pull-right'><ul>" + restaurant.menuItems + "</ul></div></div></div></div>");
+      $(".restaurantResults").append("<div class='exampleResult " + restaurant.reference +"'><div class='row'><div class='col-md-7'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>1234 Location Street</h4><p class='resultInformation'>Basic information about the restaurant will go in here if available.</p></div><div class='col-md-5 pull-right'><ul>" + "</ul></div></div></div></div>");
     });
 
-    //reset the value of results and limits to empty arrays
+
+// + menuItemParser(restaurant.menuItems) +
+
+    // reset the value of results and limits to empty arrays
     newSearch.results = [];
     newSearch.limits = [];
+
+    console.log(menuArray);
 
     //prevent default behavior of form submittal
     event.preventDefault();
 
-    // $(".exampleResult").click(function() {
-    //   this.remove();
-    // });
+    $(".exampleResult").click(function() {
+      this.remove();
+    });
   });
 
 });
