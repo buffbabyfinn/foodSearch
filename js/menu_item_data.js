@@ -79,8 +79,8 @@ var R2M1 = {
 reference: "R2M1",
 name: "Egg & Cheese",
 description: "on a hard roll",
-ingredients: ["egg", "cheese", "bread roll"],
-restrictions: ['vegetarian','pescatarian','nutallergy','kosher','halal'],
+ingredients: "egg, cheese, bread roll",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
 price: 5,
 picture: true,
 }
@@ -89,8 +89,8 @@ var R2M2 = {
 reference: "R2M2",
 name: "Peanut Butter & Jelly",
 description: "or Peanut Butter & Nutella or Nutella & Jelly. Served with kettle chips.",
-ingredients: ["peanut butter", "nutella", "jelly", "kettle chips", "bread"],
-restrictions: ['vegetarian','pescatarian','hindu','kosher','halal','dairyfree'],
+ingredients: "peanut butter, nutella, jelly, kettle chips, bread",
+restrictions: ['vegetarian','pescatarian','hindu','kosher','halal','dairyFree'],
 price: 5,
 picture: true
 }
@@ -99,8 +99,8 @@ var R2M3 = {
 reference: "R2M3",
 name: "Grilled Tillamook Cheddar",
 description: "Served with kettle chips. Add tomato soup 2.00.",
-ingredients: ["cheese", "tomato", "bread"],
-restrictions: ['vegetarian','pescatarian','nutallergy','hindu','kosher','halal'],
+ingredients: "cheese, tomato, bread",
+restrictions: ['vegetarian','pescatarian','nutAllergy','hindu','kosher','halal'],
 price: 6,
 picture: true
 }
@@ -112,7 +112,7 @@ reference: "R3M1",
 name: "Nuestra Cesar",
 description: "romaine lettuce, free range chicken, croutons, parmesan",
 ingredients: "romaine lettuce, free range chicken, croutons, parmesan",
-restrictions: ['nutfree','kosher','halal'],
+restrictions: ['nutAllergy','kosher','halal'],
 price: 12,
 picture: false
 }
@@ -122,7 +122,7 @@ reference: "R3M2",
 name: "Remolacha",
 description: "pickled beets, organic greens, citrus, torpedo onions, walnuts",
 ingredients: "pickled beets, organic greens, citrus, torpedo onions, walnuts",
-restrictions: ['glutenFree','vegetarian','pescetarian','vegan','dairyfree','hindu','kosher','halal'],
+restrictions: ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal'],
 price: 11,
 picture: false
 }
@@ -132,8 +132,8 @@ var R4M1 = {
 reference: "R4M1",
 name: "Elvis Sighting",
 description: "",
-ingredients: ["brioche", "bacon", "bananas", "caramel sauce", "candied nuts"],
-restrictions: [],
+ingredients: "brioche, bacon, bananas, caramel sauce, candied nuts",
+restrictions: [false],
 price: 10,
 picture: true
 }
@@ -142,8 +142,8 @@ var R4M2 = {
 reference: "R4M2",
 name: "Creme Brulee French Toast",
 description: "",
-ingredients: ["brioche"],
-restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
+ingredients: "brioche, eggs, milk",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
 price: 9,
 picture: true
 }
@@ -152,8 +152,8 @@ var R4M3 = {
 reference: "R4M3",
 name: "Tofu Hash",
 description: "",
-ingredients: ["eggs","tofu","potatoes","seasonal vegetables","toast"],
-restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
+ingredients: "eggs, tofu, potatoes, seasonal vegetables, toast",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
 price: 11,
 picture: true
 }
@@ -162,8 +162,8 @@ var R4M4 = {
 reference: "R4M4",
 name: "Veggie Sausage Scramble",
 description: "",
-ingredients: ["vegan sausage","eggs","cheddar","greens","tomato confit"],
-restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
+ingredients: "vegan sausage, eggs, cheddar, greens, tomato confit",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
 price: 11,
 picture: true
 }
@@ -172,8 +172,8 @@ var R4M5 = {
 reference: "R4M5",
 name: "Oregon Salad",
 description: "",
-ingredients: ["greens", "beets","pear","hazelnut","chevre","sherry vinaigrette"],
-restrictions: ['glutenfree','vegetarian','pescetarian','kosher','halal'],
+ingredients: "greens, beets, pear, hazelnut, chevre, sherry vinaigrette",
+restrictions: ['glutenFree','vegetarian','pescatarian','kosher','halal'],
 price: 13.00,
 picture: true
 }
@@ -183,9 +183,9 @@ var R5M1 = {
 reference: "R5M1",
 name: "Tomato B's",
 description: "",
-ingredients: ["waffle","brie","basil","tomato","peach jam"],
-restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
-price: "",
+ingredients: "waffle (eggs, milk), brie, basil, tomato, peach jam",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
+price: "?",
 picture: false
 }
 
@@ -193,9 +193,9 @@ var R5M2 = {
 reference: "R5M2",
 name: "Farm Fusion",
 description: "",
-ingredients: ["waffle","mushrooms","spinach","roasted pepper","tomato","chevre"],
-restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
-price: "",
+ingredients: "waffle, mushrooms, spinach, roasted pepper, tomato, chevre",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
+price: "?",
 picture: true
 }
 
@@ -203,9 +203,9 @@ var R5M3 = {
 reference: "R5M3",
 name: "Nutella and Fresh Banana",
 description: "",
-ingredients: ["waffle","nutella","whipped cream","cinnamon sugar","fudge"],
-restrictions: ['vegetarian','pescetarian','kosher','halal'],
-price: "",
+ingredients: "waffle, nutella, whipped cream, cinnamon sugar, fudge",
+restrictions: ['vegetarian','pescatarian','kosher','halal'],
+price: "?",
 picture: true
 }
 
@@ -214,9 +214,9 @@ picture: true
 var R6M1 = {
 reference: "R6M1",
 name: "Crispy Fried Oysters",
-description: "",
-ingredients: ["oysters"],
-restrictions: ['pescetarian','nutallergy','halal'],
+description: "Oysters that are crisped. And fried.",
+ingredients: "oysters, batter",
+restrictions: ['pescatarian','nutAllergy','halal'],
 price: 9.75,
 picture: true
 }
@@ -225,8 +225,8 @@ var R6M2 = {
 reference: "R6M2",
 name: "Macroni and Cheese",
 description: "",
-ingredients: ["macaroni","cheese"],
-restrictions: ['vegetarian','pescetarian','nutallergy','kosher','halal'],
+ingredients: "macaroni, cheese",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
 price: 4.75,
 picture: true
 }
@@ -235,8 +235,8 @@ var R6M3 = {
 reference: "R6M3",
 name: "Hushpuppies",
 description: "",
-ingredients: ["cornmeal","eggs","buttermilk","scallions"],
-restrictions: ['vegetarian','pescatarian','nutallergy','kosher','halal'],
+ingredients: "cornmeal, eggs, buttermilk, scallions",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
 price: 6.50,
 picture: true
 }
