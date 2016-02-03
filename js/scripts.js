@@ -1,7 +1,6 @@
 //restaurants is an array filled with objects defined in restaurant_data.js
-var restaurants = [R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11];
-  // R2, R3, R4, R5, R6, R7, R8, R9, R10, R11];
-  var menuArray = [];
+var restaurants = [R1, R2, R3];
+// R4, R5, R6, R7, R8, R9, R10, R11
 //Search object constructor
 function Search(limits, results) {
   // this.location = location;
@@ -9,6 +8,26 @@ function Search(limits, results) {
   this.limits = [];
   this.results = [];
 }
+
+
+Restaurant.prototype.menuMatcher = function() {
+  this.menuItems.forEach(function(item) {
+    var itemMatch = newSearch.limits.every(function (val) {
+      return item.restrictions.indexOf(val) >= 0; });
+    if (itemMatch === true){
+      this.restrictionMatch.push(item.name);
+    }
+});
+  return this.restrictionMatch;
+}
+
+// Restaurant.prototype.menuList = function() {
+//
+// }
+
+
+
+
 
 //instantiate a new instance of the Search object and call it newSearch
 var newSearch = new Search();
@@ -39,6 +58,7 @@ function meetsRestrictions(userInput) {
 }
 
 
+
 // function menuItemParser(restaurantItems) {
 //   debugger;
 //   restaurantItems.forEach(function(item) {
@@ -48,9 +68,9 @@ function meetsRestrictions(userInput) {
 //     return menuArray;
 // }
 
-function menuAssemble(restaurantItems) {
-  restaurantItems.pluck()
-}
+// function menuAssemble(restaurantItems) {
+//   restaurantItems.pluck()
+// }
 
 
 //check to make sure document is loaded
@@ -80,13 +100,12 @@ $(document).ready(function() {
     });
 
 
+
 // + menuItemParser(restaurant.menuItems) +
 
     // reset the value of results and limits to empty arrays
     newSearch.results = [];
     newSearch.limits = [];
-
-    console.log(menuArray);
 
     //prevent default behavior of form submittal
     event.preventDefault();
