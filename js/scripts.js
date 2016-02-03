@@ -1,5 +1,5 @@
 //restaurants is an array filled with objects defined in restaurant_data.js
-var restaurants = [R1, R2];
+var restaurants = [R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11];
   // R2, R3, R4, R5, R6, R7, R8, R9, R10, R11];
   var menuArray = [];
 //Search object constructor
@@ -48,6 +48,10 @@ function meetsRestrictions(userInput) {
 //     return menuArray;
 // }
 
+function menuAssemble(restaurantItems) {
+  restaurantItems.pluck()
+}
+
 
 //check to make sure document is loaded
 $(document).ready(function() {
@@ -88,7 +92,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     $(".exampleResult").click(function() {
-      this.remove();
+    this.remove();
     });
   });
 
