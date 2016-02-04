@@ -105,6 +105,7 @@ $(document).ready(function() {
       $(".restaurantResults").append("<div class='exampleResult " + restaurant.reference +"'><div class='row'><div class='col-md-6'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>" + restaurant.location + "</h4><p class='resultInformation'>" + restaurant.phone + "</p></div><div class='col-md-6 pull-right'><ul>" + restaurant.menuList(newSearch.limits) + "</ul></div></div></div></div>");
 
 
+
       restaurant.restrictionMatch = [];
     });
 
