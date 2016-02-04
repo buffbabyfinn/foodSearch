@@ -18,10 +18,10 @@ this.restrictionMatch = [];
 var R1 = new Restaurant ("Natural Selection", "naturalSelection", ['european'], ["dinner"], 5, 3, "3033 NE Alberta Street, 97214", "503.328.2865", ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "hindu", "kosher", "halal"], [R1M1, R1M2, R1M3, R1M4, R1M5, R1M6, R1M7, R1M8]);
 
 //Bunk Sandwiches Restaurant Object
-var R2 = new Restaurant ("Bunk Sandwiches", "bunkSandwiches", ["sandwiches","american"], ['lunch','dinner','brunch'], 4, 1, "1028 SE Water Ave, 97214", "503.288.5883",  ["vegan", "vegetarian", "pescatarian", "nutAllergy", "hindu", "kosher", "halal" , "dairyFree"], [R2M1, R2M2, R2M3]);
+var R2 = new Restaurant ("Bunk Sandwiches", "bunkSandwiches", ["sandwiches", "american"], ['lunch','dinner','brunch'], 4, 1, "1028 SE Water Ave, 97214", "503.288.5883",  ["vegan", "vegetarian", "pescatarian", "nutAllergy", "hindu", "kosher", "halal" , "dairyFree"], [R2M1, R2M2, R2M3]);
 
 //Ataula Restaurant Object
-var R3 = new Restaurant ("Ataula", "ataula", ["spanish", "dinner"], 5, 3, "45.535922, -122.699614", "503.894.8904", ['glutenFree', 'vegetarian', 'pescatarian', 'vegan', 'nutAllergy', 'dairyFree', 'kosher','halal'], [R3M1, R3M2, R3M3, R3M4, R3M5, R3M6, R3M7, R3M8]);
+var R3 = new Restaurant ("Ataula", "ataula", ["spanish"], ["dinner"], 5, 3, "1818 NW 23rd Pl 97210", "503.894.8904", ['glutenFree', 'vegetarian', 'pescatarian', 'vegan', 'nutAllergy', 'dairyFree', 'kosher','halal'], [R3M1, R3M2, R3M3, R3M4, R3M5, R3M6, R3M7, R3M8]);
 
 
 //

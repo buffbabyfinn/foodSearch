@@ -42,19 +42,13 @@ restrictions: ["vegetarian", "pescatarian", "kosher", "halal"],
 price: 11.25
 }
 
-var R1M6 = {
-reference: "R1M6",
-name: "citrus & delicata squash salad",
-ingredients: "watercress, olives, dates, creamy sherry dressing",
-restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25
-}
+
 
 var R1M7 = {
 reference: "R1M7",
 name: "creamy herbed risotto",
 ingredients: "braised red cabbage, salsify, sunchoke, cider",
-restrictions: ["glutenFree", "vegetarian", "pescatarian", "dairyFree", "nutAllergy", "kosher", "halal"],
+restrictions: ["glutenFree", "vegetarian", "pescatarian", "nutAllergy", "kosher", "halal"],
 price: 11.25
 }
 
@@ -300,7 +294,7 @@ var R6M1 = {
 reference: "R6M1",
 name: "Crispy Fried Oysters",
 ingredients: "oysters, batter",
-restrictions: ['pescatarian','nutAllergy','halal'],
+restrictions: ['pescatarian','nutAllergy'],
 price: 9.75,
 picture: true
 }
@@ -309,7 +303,7 @@ var R6M2 = {
 reference: "R6M2",
 name: "Macroni and Cheese",
 ingredients: "macaroni, cheese",
-restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher'],
 price: 4.75,
 picture: true
 }
@@ -318,8 +312,26 @@ var R6M3 = {
 reference: "R6M3",
 name: "Hushpuppies",
 ingredients: "cornmeal, eggs, buttermilk, scallions",
-restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher'],
 price: 6.50,
+picture: true
+}
+
+var R6M5 = {
+reference: "R6M5",
+name: "Texas Veggie Migas",
+ingredients: "three eggs, roasted green chiles, onion, crispy tortilla strips, pepperjack cheese, salsa verde & cilantro lime crema, flour tortillas choice of grits, cheddar grits, or roasted potatoes",
+restrictions: ['vegetarian', 'glutenFree', 'pescatarian','nutAllergy','kosher'],
+price: 10.75,
+picture: true
+}
+
+var R6M6 = {
+reference: "R6M6",
+name: "Screen Door Praline Bacon",
+ingredients: "smoked bacon, caramelized pecans, brown sugar, cayenne",
+restrictions: ['glutenFree'],
+price: 10.75,
 picture: true
 }
 
@@ -334,3 +346,7 @@ picture: true
 // price: 0,
 // picture: true
 // }
+
+//Paadee
+
+var R11M1 = {
