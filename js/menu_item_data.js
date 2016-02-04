@@ -276,7 +276,7 @@ var R4M8 = {
 reference: "R4M8",
 name: "Spinach Salad",
 ingredients: "baby spinach, rhubarb, asparagus, strawberries, almonds, feta, aged balsamic",
-restrictions: ["vegetarian", "pescatarian", "vegan", "glutenFree," "halal", "kosher"],
+restrictions: ["vegetarian", "pescatarian", "vegan","glutenFree","halal","kosher"],
 price: "11"
 }
 
@@ -495,6 +495,23 @@ price: 12,
 picture: true
 }
 
+R8M2 = {
+reference: "R8M2",
+name: "Bruschetta of Dungeness Crab",
+ingredients: "Bruschetta of Dungeness Crab, Avocado, Cucumber, Radish, Shiso",
+restrictions: ['glutenFree','pescatarian','dairyFree','nutAllergy','halal'],
+price: 14,
+picture: true
+}
+
+R8M3 = {
+reference: "R8M3",
+name: "Spicy Braised Beef Tripe",
+ingredients: "Spicy Braised Beef Tripe and Octopus, Mint Aïoli, Crispy Sunchoke",
+restrictions: ['glutenFree','dairyFree','nutAllergy','halal'],
+price: 13,
+picture: true
+}
 
 //Le Pigeon
 R9M1 = {
@@ -586,5 +603,3 @@ restrictions: ['dairyFree','nutAllergy','kosher','halal'],
 price: 29,
 picture: true
 }
-
-
