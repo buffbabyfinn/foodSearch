@@ -15,7 +15,7 @@ this.restrictionMatch = [];
 }
 
 //Natural Selection Restaurant Object
-var R1 = new Restaurant ("Natural Selection", "naturalSelection", ['european'], ["dinner"], 5, 3, "3033 NE Alberta Street, 97214", "503.328.2865", ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "hindu", "kosher", "halal"], [R1M1, R1M2, R1M3, R1M4, R1M5, R1M6, R1M7, R1M8]);
+var R1 = new Restaurant ("Natural Selection", "naturalSelection", ['european'], ["dinner"], 5, 3, "3033 NE Alberta Street, 97214", "503.328.2865", ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "hindu", "kosher", "halal"], [R1M1, R1M2, R1M3, R1M4, R1M5, R1M7, R1M8]);
 
 //Bunk Sandwiches Restaurant Object
 var R2 = new Restaurant ("Bunk Sandwiches", "bunkSandwiches", ["sandwiches", "american"], ['lunch','dinner','brunch'], 4, 1, "1028 SE Water Ave, 97214", "503.288.5883",  ["vegan", "vegetarian", "pescatarian", "nutAllergy", "hindu", "kosher", "halal" , "dairyFree"], [R2M1, R2M2, R2M3]);
