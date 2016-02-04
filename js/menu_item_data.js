@@ -276,7 +276,7 @@ var R4M8 = {
 reference: "R4M8",
 name: "Spinach Salad",
 ingredients: "baby spinach, rhubarb, asparagus, strawberries, almonds, feta, aged balsamic",
-restrictions: ["vegetarian", "pescatarian", "vegan", "glutenFree," "halal", "kosher"],
+restrictions: ["vegetarian", "pescatarian", "vegan", "glutenFree", "halal", "kosher"],
 price: "11"
 }
 
@@ -586,5 +586,3 @@ restrictions: ['dairyFree','nutAllergy','kosher','halal'],
 price: 29,
 picture: true
 }
-
-
