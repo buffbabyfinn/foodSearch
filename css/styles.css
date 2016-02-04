@@ -2,6 +2,9 @@ body {
   font-family: 'Lora', serif !important;
   height: 100%;
   width: 100%;
+  color: #463854 !important;
+  background-color: #EEE !important;
+  font-size: 16px;
 }
 
 html {
@@ -17,8 +20,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .header {
-  background-color: #8CCD45 !important;
-  color: #55980C !important;
+  background-color: #463854 !important;
+  color: #57971E !important;
   padding-left: 40px;
   background-image: url("../img/leaf-graphic-2x.png");
   background-repeat: no-repeat;
@@ -39,7 +42,7 @@ h1, h2, h3, h4, h5 {
   width: 25%;
   float: left;
   padding: 1.5em;
-  background-color: #EEE;
+  background-color: #CEBEA1;
   height: 100%;
   position: fixed;
   top: 231px;
@@ -48,6 +51,7 @@ h1, h2, h3, h4, h5 {
 
 .aboutus {
   width: 95%;
+  height: 200px;
   padding: 1em;
   margin: auto;
   background-color: white;
@@ -64,10 +68,14 @@ h1, h2, h3, h4, h5 {
 
 .foodintro {
   width: 100%;
-  padding: 1em;
+  padding: 1em 1.5em;
   margin: auto;
-  background-color: #EEE;
+  background-color: ;
   border-radius: 6px;
+}
+
+.foodintro h2 {
+  margin-top: 10px;
 }
 
 .dietaryRestrictionsList {
@@ -84,18 +92,22 @@ h1, h2, h3, h4, h5 {
 
 .exampleResult {
   width: 100%;
-  background-color: #EEE;
+  background-color: white;
   border-radius: 6px;
   margin-top: 20px;
   padding: 1.5em;
+  color: #463854;
 }
 
 .exampleResult h2, h4 {
   margin-top: 0px;
+  color: #463854;
 }
 
 .foodbutton {
   background-color: #8CCD45 !important;
+  color: #463854;
+  font-family: 'Nunito', sans-serif !important;
 }
 
 .foodbutton:hover {
@@ -104,4 +116,68 @@ h1, h2, h3, h4, h5 {
 
 .foodbutton:focus {
   outline: none !important;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #CEBEA1;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*experimental*/
+
+input[type="checkbox"]:checked + label::after {
+   content: '';
+   position: absolute;
+   width: 1.2ex;
+   height: 0.4ex;
+   background: rgba(0, 0, 0, 0);
+   top: 0.9ex;
+   left: 0.4ex;
+   border: 3px solid #57971E;
+   border-top: none;
+   border-right: none;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+}
+
+input[type="checkbox"] {
+   line-height: 2.1ex;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    position: absolute;
+    left: -999em;
+}
+
+input[type="checkbox"] + label {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+input[type="checkbox"] + label::before {
+   content: "";
+   display: inline-block;
+   vertical-align: -15%;
+   height: 2.2ex;
+   width: 2.2ex;
+   background-color: white;
+   border-radius: 2px;
+   box-shadow: inset 0 2px 5px rgba(0,0,0,0.25);
+   margin-right: 0.5em;
+}
+
+label {
+  margin-right: 15px;
+  font-size: 1.1em;
+  font-family: 'Nunito', sans-serif !important;
+  font-weight: normal;
 }
