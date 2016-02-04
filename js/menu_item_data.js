@@ -590,7 +590,7 @@ R9M2 = {
 reference: "R9M2",
 name: "Bay Scallop Crudo",
 ingredients: "celery root, green apple, jalapeno, mezcal",
-restrictions: ['pescatarian','dairyFree','nutAllergy'],
+restrictions: ['pescatarian','dairyFree','nutAllergy', 'glutenFree'],
 price: 10,
 picture: true
 }
@@ -599,21 +599,12 @@ R9M3 = {
 reference: "R9M3",
 name: "Dry Pigeon Ramen",
 ingredients: "pigeon confit, miso, kabocha squash, orange, enoki",
-restrictions: ['nutAllergy','dairyFree','kosher','halal'],
+restrictions: ['kosher'],
 price: 18,
 picture: true
 }
 
 R9M4 = {
-reference: "R9M4",
-name: "Chicken Fried Lamb Neck",
-ingredients: "herbed grits, sweet habanero honey, spiced carrot, dill",
-restrictions: ['nutAllergy','dairyFree','kosher','halal'],
-price: 17,
-picture: true
-}
-
-R9M5 = {
 reference: "R9M5",
 name: "Beef Cheek Bourguignon",
 ingredients: "potato latke, red onion marmalade, carrots montreal",
@@ -622,7 +613,7 @@ price: 29,
 picture: true
 }
 
-R9M6 = {
+R9M5 = {
 reference: "R9M6",
 name: "Truffle Parmesan Risotto",
 ingredients: "carrot à l’orange, peanut, squash salad",
@@ -631,7 +622,7 @@ price: 27,
 picture: true
 }
 
-R9M7 = {
+R9M6 = {
 reference: "R9M7",
 name: "Grilled Pigeon",
 ingredients: "dirty couscous, fried cauliflower puree, pine nuts, onion raisin relish",
@@ -640,7 +631,7 @@ price: 31,
 picture: true
 }
 
-R9M8 = {
+R9M7 = {
 reference: "R9M8",
 name: "Pork Belly",
 ingredients: "blackened octopus, black eyed peas, fennel mostada, chili mayo",
@@ -649,7 +640,7 @@ price: 28,
 picture: true
 }
 
-R9M9 = {
+R9M8 = {
 reference: "R9M9",
 name: "Foie Gras and Uni",
 ingredients: "wild rice pancake, sour cream, soy maple",
@@ -658,7 +649,7 @@ price: 25,
 picture: true
 }
 
-R9M10 = {
+R9M9 = {
 reference: "R9M10",
 name: "Kobe Beef Salisbury Steak",
 ingredients: "mushroom and oxtail gravy, foie gras vinaigrette, fried onion",

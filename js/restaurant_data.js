@@ -41,7 +41,7 @@ var R7 = new Restaurant("Luc Lac", "lucLac", ["vietnamese"], ["lunch", "dinner",
 var R8 = new Restaurant ("Ox", "ox", ["argentinian"], ["dinner"], 4, 3, "2225 NE MLK Blvd 97212", "503.284.3366", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R8M1, R8M2, R8M3, R8M4, R8M5, R8M6, R8M7, R8M8, R8M9, R8M10])
 
 //Le Pigeon Restaurant Object
-var R9 = new Restaurant ("Le Pigeon",  "lePigeon", ["french"], ["dinner"], 5, 3, "738 E Burnside St 97214", "503.546.8796", ['glutenFree','vegetarian','pescatarian','dairyFree','hindu','kosher','halal','nutAllergy'], [R9M1, R9M2, R9M3, R9M4, R9M5, R9M6, R9M7, R9M8, R9M9, R9M10]);
+var R9 = new Restaurant ("Le Pigeon",  "lePigeon", ["french"], ["dinner"], 5, 3, "738 E Burnside St 97214", "503.546.8796", ['glutenFree','vegetarian','pescatarian','dairyFree','hindu','kosher','halal','nutAllergy'], [R9M1, R9M2, R9M3, R9M4, R9M5, R9M6, R9M7, R9M8, R9M9]);
 
 //Ava Gene's Restaurant Object
 
