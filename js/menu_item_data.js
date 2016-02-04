@@ -666,3 +666,49 @@ restrictions: ['dairyFree','nutAllergy','kosher','halal'],
 price: 29,
 picture: true
 }
+
+//Ava Gene's
+R10M1 = {
+reference: "R10M1",
+name: "Steelhead",
+ingredients: "steelhead, beans, winter greens, meyer lemon",
+restrictions: ['glutenFree','pescatarian','dairyFree','nutAllergy','halal'],
+price: 34,
+picture: true
+}
+
+R10M2 = {
+reference: "R10M2",
+name: "Lamb",
+ingredients: "lamb, leeks, apples, prunes, hazelnuts",
+restrictions: ['glutenFree','dairyFree','halal','kosher','halal'],
+price: 36,
+picture: true
+}
+
+R10M3 = {
+reference: "R10M3",
+name: "pears, daikon, walnuts, gorgonzola dolce, saba",
+ingredients: "pears, daikon, walnuts, gorgonzola dolce, saba",
+restrictions: ['vegetarian','pescatarian','glutenFree','halal','kosher','halal'],
+price: 13,
+picture: true
+}
+
+R10M4 = {
+reference: "R10M4",
+name: "carrots, sunchokes, hazelnuts, goat cheese",
+ingredients: "carrots, sunchokes, hazelnuts, goat cheese",
+restrictions: ['vegetarian','pescatarian','glutenFree','halal','kosher','halal'],
+price: 13,
+picture: true
+}
+
+R10M5 = {
+reference: "R10M5",
+name: "citrus, parsnips, pistachio, castelvetrano olives, parsley",
+ingredients: "citrus, parsnips, pistachio, castelvetrano olives, parsley",
+restrictions: ['vegetarian','pescatarian','glutenFree','halal','kosher','halal','dairyFree'],
+price: 13,
+picture: true
+}
