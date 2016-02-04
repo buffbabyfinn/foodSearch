@@ -376,6 +376,42 @@ price: "6.50",
 picture: true
 }
 
+var R6M4 = {
+reference: "R6M4",
+name: "Texas Veggie Migas",
+ingredients: "three eggs, roasted green chiles, onion, crispy tortilla strips, pepperjack cheese, salsa verde & cilantro lime crema, flour tortillas choice of grits, cheddar grits, or roasted potatoes",
+restrictions: ['vegetarian', 'glutenFree', 'pescatarian','nutAllergy','kosher'],
+price: "10.75",
+picture: true
+}
+
+var R6M5 = {
+reference: "R6M5",
+name: "Screen Door Praline Bacon",
+ingredients: "smoked bacon, caramelized pecans, brown sugar, cayenne",
+restrictions: ['glutenFree', 'dairyFree'],
+price: "10.75",
+picture: true
+}
+
+var R6M6 = {
+reference: "R6M6",
+name: "Braised Pork Shoulder",
+ingredients: "molasses and chili, pork shoulder, bacon, ham hocks, corona beans, spicy slaw",
+restrictions: ['glutenFree, nutAllergy'],
+price: "10.75",
+picture: true
+}
+
+var R6M7 = {
+reference: "R6M7",
+name: "Seasonal Garden Salad",
+ingredients: "seasonal lettuce, fruits, vegetables",
+restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal'],
+price: "10.75",
+picture: true
+}
+
 
 //Le Pigeon
 R9M1 = {
@@ -465,43 +501,6 @@ name: "Kobe Beef Salisbury Steak",
 ingredients: "mushroom and oxtail gravy, foie gras vinaigrette, fried onions",
 restrictions: ['dairyFree','nutAllergy','kosher','halal'],
 price: 29,
-picture: true
-}
-
-//Which restaurant is this for?
-var R6M5 = {
-reference: "R6M5",
-name: "Texas Veggie Migas",
-ingredients: "three eggs, roasted green chiles, onion, crispy tortilla strips, pepperjack cheese, salsa verde & cilantro lime crema, flour tortillas choice of grits, cheddar grits, or roasted potatoes",
-restrictions: ['vegetarian', 'glutenFree', 'pescatarian','nutAllergy','kosher'],
-price: "10.75",
-picture: true
-}
-
-var R6M6 = {
-reference: "R6M6",
-name: "Screen Door Praline Bacon",
-ingredients: "smoked bacon, caramelized pecans, brown sugar, cayenne",
-restrictions: ['glutenFree', 'dairyFree'],
-price: "10.75",
-picture: true
-}
-
-var R6M7 = {
-reference: "R6M7",
-name: "Braised Pork Shoulder",
-ingredients: "molasses and chili, pork shoulder, bacon, ham hocks, corona beans, spicy slaw",
-restrictions: ['glutenFree, nutAllergy'],
-price: "10.75",
-picture: true
-}
-
-var R6M8 = {
-reference: "R6M8",
-name: "Seasonal Garden Salad",
-ingredients: "seasonal lettuce, fruits, vegetables",
-restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal'],
-price: "10.75",
 picture: true
 }
 
