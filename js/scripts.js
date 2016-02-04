@@ -12,12 +12,16 @@ function Search(limits, results) {
 
 Restaurant.prototype.menuMatcher = function() {
   this.menuItems.forEach(function(item) {
+
     var itemMatch = newSearch.limits.every(function (val) {
-      return item.restrictions.indexOf(val) >= 0; });
+      return item.restrictions.indexOf(val) >= 0;
+    });
+
     if (itemMatch === true){
-      this.restrictionMatch.push(item.name);
+      restrictionMatch.push(item.name);
     }
-});
+  });
+
   return this.restrictionMatch;
 }
 
