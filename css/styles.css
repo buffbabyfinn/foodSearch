@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5 {
   background-color: #EEE;
   height: 100%;
   position: fixed;
-  top: 195px;
+  top: 235px;
   left: 0;
 }
 
@@ -55,7 +55,15 @@ h1, h2, h3, h4, h5 {
   width: 75%;
   float: right;
   position: relative;
-  top: 195px;
+  top: 235px;
+}
+
+.foodintro {
+  width: 100%;
+  padding: 1em;
+  margin: auto;
+  background-color: #EEE;
+  border-radius: 6px;
 }
 
 .dietaryRestrictionsList {
