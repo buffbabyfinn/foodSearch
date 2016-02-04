@@ -36,10 +36,10 @@ var R6 = new Restaurant ("Screen Door", "screenDoor", ["southern","cajun"], ["br
 var R7 = new Restaurant("Luc Lac", "lucLac", ["vietnamese"], ["lunch", "dinner", "happy hour", "late night"], 4, 3, "835 SW 2nd Ave 97204", "503.222.0047",  ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R7M1, R7M2, R7M3, R7M4, R7M5, R7M6, R7M7, R7M8]);
 
 //Ox Restaurant Object
-var R8 = new Restaurant ("Ox", "ox", ["argentinian"], ["dinner"], 4, 3, "2225 NE MLK Blvd 97212", "503.284.3366", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R3M1, R3M2])
+var R8 = new Restaurant ("Ox", "ox", ["argentinian"], ["dinner"], 4, 3, "2225 NE MLK Blvd 97212", "503.284.3366", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R8M1, R8M2, R8M3, R8M4, R8M5, R8M6])
 
 //Le Pigeon Restaurant Object
-var R9 = new Restaurant ("Le Pigeon",  "lePigeon", ["french"], ["dinner"], 5, 3, "738 E Burnside St 97214", "503.546.8796", ['glutenFree','vegetarian','pescatarian','dairyFree','hindu','kosher','halal','nutAllergy'], [R3M1, R3M2]);
+var R9 = new Restaurant ("Le Pigeon",  "lePigeon", ["french"], ["dinner"], 5, 3, "738 E Burnside St 97214", "503.546.8796", ['glutenFree','vegetarian','pescatarian','dairyFree','hindu','kosher','halal','nutAllergy'], [R9M1, R9M2, R9M3, R9M4, R9M5, R9M6, R9M7, R9M8, R9M9, R9M10]);
 
 //Ava Gene's Restaurant Object
 var R10 = new Restaurant ("Ava Gene's", "avaGenes", ["italian"], ["dinner"], 4, 3, "3377 SE Division St 97202", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R3M1, R3M2]);
