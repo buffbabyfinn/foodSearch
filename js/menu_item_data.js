@@ -513,6 +513,33 @@ price: 13,
 picture: true
 }
 
+R8M4 = {
+reference: "R8M4",
+name: "Fresh Clam Chowder",
+ingredients: "Fresh Clam Chowder, Smoked Marrow Bone, Green Onion, Jalapeño",
+restrictions: ['glutenFree','pescatarian','nutAllergy','halal'],
+price: 14,
+picture: true
+}
+
+R8M5 = {
+reference: "R8M5",
+name: "Flanken-Style Beef Short Rib",
+ingredients: "Flanken-Style Beef Short Rib",
+restrictions: ['glutenFree','dairyFree','nutAllergy','halal','kosher'],
+price: 24,
+picture: true
+}
+
+R8M6 = {
+reference: "R8M6",
+name: "Wood-Fired Trout",
+ingredients: "Wood-Fired Trout, Black Gold Fingerlings, Capers, Herbs",
+restrictions: ['glutenFree','pescatarian','dairyFree','nutAllergy','halal'],
+price: 22,
+picture: true
+}
+
 //Le Pigeon
 R9M1 = {
 reference: "R9M1",
