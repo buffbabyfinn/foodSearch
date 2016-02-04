@@ -42,7 +42,7 @@ var R8 = new Restaurant ("Ox", "ox", ["argentinian"], ["dinner"], 4, 3, "2225 NE
 var R9 = new Restaurant ("Le Pigeon",  "lePigeon", ["french"], ["dinner"], 5, 3, "738 E Burnside St 97214", "503.546.8796", ['glutenFree','vegetarian','pescatarian','dairyFree','hindu','kosher','halal','nutAllergy'], [R9M1, R9M2, R9M3, R9M4, R9M5, R9M6, R9M7, R9M8, R9M9, R9M10]);
 
 //Ava Gene's Restaurant Object
-var R10 = new Restaurant ("Ava Gene's", "avaGenes", ["italian"], ["dinner"], 4, 3, "3377 SE Division St 97202", "971.229.0571", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R10M1, R10M2, R10M3, R10M4, R10M5]);
+var R10 = new Restaurant ("Ava Gene's", "avaGenes", ["italian"], ["dinner"], 4, 3, "3377 SE Division St 97202", "971.229.0571", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R10M1, R10M2, R10M3, R10M4, R10M5, R10M6, R10M7, R10M8, R10M9, R10M10]);
 
 //Paadee Restaurant Object
 var R11 = new Restaurant ("Paadee", "paadee", ["thai"], ["lunch","dinner"],  3, 2, "6 SE 28th Ave 97214", "503.360.1453" ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R3M1, R3M2]);

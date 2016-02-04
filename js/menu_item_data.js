@@ -708,7 +708,52 @@ R10M5 = {
 reference: "R10M5",
 name: "citrus, parsnips, pistachio, castelvetrano olives, parsley",
 ingredients: "citrus, parsnips, pistachio, castelvetrano olives, parsley",
-restrictions: ['vegetarian','pescatarian','glutenFree','halal','kosher','halal','dairyFree'],
+restrictions: ['vegan','vegetarian','pescatarian','glutenFree','halal','kosher','halal','dairyFree'],
 price: 13,
+picture: true
+}
+
+R10M6 = {
+reference: "R10M6",
+name: "ricotta, squash, walnuts, chiles",
+ingredients: "ricotta, squash, walnuts, chiles",
+restrictions: ['vegetarian','pescatarian','glutenFree','halal','kosher','halal'],
+price: 11,
+picture: true
+}
+
+R10M7 = {
+reference: "R10M7",
+name: "borlotti beans, garlic, rosemary",
+ingredients: "borlotti beans, garlic, rosemary",
+restrictions: ['vegan','vegetarian','pescatarian','glutenFree','halal','kosher','halal'],
+price: 11,
+picture: true
+}
+
+R10M8 = {
+reference: "R10M8",
+name: "pork, burdock, almonds, dates, marmellata squash, citrus",
+ingredients: "pork, burdock, almonds, dates, marmellata squash, citrus",
+restrictions: ['glutenFree','dairyFree'],
+price: 36,
+picture: true
+}
+
+R10M9 = {
+reference: "R10M9",
+name: "barley cavatelli, prosciutto, brussels sprouts, black pepper",
+ingredients: "barley cavatelli, prosciutto, brussels sprouts, black pepper",
+restrictions: ['dairyFree','nutAllergy'],
+price: 36,
+picture: true
+}
+
+R10M10 = {
+reference: "R10M10",
+name: "amish butter corn polenta",
+ingredients: "amish butter corn polenta",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
+price: 7,
 picture: true
 }
