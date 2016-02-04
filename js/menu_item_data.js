@@ -42,18 +42,16 @@ restrictions: ["vegetarian", "pescatarian", "kosher", "halal"],
 price: "11.25"
 }
 
-
-
-var R1M7 = {
-reference: "R1M7",
+var R1M6 = {
+reference: "R1M6",
 name: "creamy herbed risotto",
 ingredients: "braised red cabbage, salsify, sunchoke, cider",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "nutAllergy", "kosher", "halal"],
 price: "11.25"
 }
 
-var R1M8 = {
-reference: "R1M8",
+var R1M7 = {
+reference: "R1M7",
 name: "lemon tapioca parfait",
 ingredients: "huckleberry, coconut, cinnamon cookie",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
@@ -140,7 +138,6 @@ picture: true
 
 
 //Ataula
-
 var R3M1 = {
 reference: "R3M1",
 name: "Nuestra Cesar",
@@ -212,7 +209,6 @@ restrictions: ['nutAllergy', 'vegetarian', 'pescatarian', 'kosher', 'glutenFree'
 price: "6",
 picture: false
 }
-
 
 //the Original Dinerant
 var R4M1 = {
@@ -382,8 +378,6 @@ picture: true
 
 
 //Le Pigeon
-
-
 R9M1 = {
 reference: "R9M1",
 name: "Butter Lettuce",
@@ -474,6 +468,7 @@ price: 29,
 picture: true
 }
 
+//Which restaurant is this for?
 var R6M5 = {
 reference: "R6M5",
 name: "Texas Veggie Migas",
@@ -511,7 +506,6 @@ picture: true
 }
 
 // Luc Lac
-
 var R7M1 = {
 reference: "R7M1",
 name: "Tofu Salad",
