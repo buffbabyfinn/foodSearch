@@ -102,7 +102,7 @@ $(document).ready(function() {
 
 
     newSearch.results.forEach(function(restaurant) {
-      $(".restaurantResults").append("<div class='exampleResult " + restaurant.reference +"'><div class='row'><div class='col-md-7'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>" + restaurant.location + "</h4><p class='resultInformation'>" + restaurant.phone + "</p></div><div class='col-md-5 pull-right'><ul>" + restaurant.menuList(newSearch.limits) + "</ul></div></div></div></div>");
+      $(".restaurantResults").append("<div class='exampleResult " + restaurant.reference +"'><div class='row'><div class='col-md-7'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>" + restaurant.location + "</h4><p class='resultPhone'>" + restaurant.phone + "</p></div><div class='col-md-5 pull-right'><ul>" + restaurant.menuList(newSearch.limits) + "</ul></div></div></div></div>");
 
 
       restaurant.restrictionMatch = [];
