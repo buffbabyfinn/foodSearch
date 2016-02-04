@@ -495,6 +495,86 @@ price: "12",
 picture: true
 }
 
+R8M2 = {
+reference: "R8M2",
+name: "Bruschetta of Dungeness Crab",
+ingredients: "toast, dungeness crab, avocado, cucumber, radish, shiso",
+restrictions: ['pescatarian','dairyFree','nutAllergy'],
+price: 14,
+picture: true
+}
+
+R8M3 = {
+reference: "R8M3",
+name: "Spicy Braised Beef Tripe",
+ingredients: "beef tripe and octopus, mint aïoli, crispy sunchoke",
+restrictions: ['glutenFree','dairyFree','nutAllergy','kosher'],
+price: 13,
+picture: true
+}
+
+R8M4 = {
+reference: "R8M4",
+name: "Fresh Clam Chowder",
+ingredients: "clam chowder, smoked marrow, green onion, jalapeño",
+restrictions: ['glutenFree','nutAllergy','halal'],
+price: 14,
+picture: true
+}
+
+R8M5 = {
+reference: "R8M5",
+name: "Flanken-Style Beef Short Rib",
+ingredients: "beef short rib",
+restrictions: ['glutenFree','dairyFree','nutAllergy','halal','kosher'],
+price: 24,
+picture: true
+}
+
+R8M6 = {
+reference: "R8M6",
+name: "Wood-Fired Trout",
+ingredients: "wood-fired trout, black gold fingerlings, capers, herbs",
+restrictions: ['glutenFree','pescatarian','dairyFree','nutAllergy','kosher'],
+price: 22,
+picture: true
+}
+
+R8M7 = {
+reference: "R8M7",
+name: "Belgian Endive and Treviso",
+ingredients: "belgian endive, treviso, sherry vinaigrette, brûléed pear, spanish chorizo, almonds, manchego",
+restrictions: ['glutenFree'],
+price: 12,
+picture: true
+}
+
+R8M8 = {
+reference: "R8M8",
+name: "Grilled Cauliflower",
+ingredients: "grilled cauliflower, tahini-feta purée, fried lemon, arugula, Mama Lils Pickled Peppers",
+restrictions: ['glutenFree','vegetarian','pescatarian','nutAllergy','kosher','halal'],
+price: 9,
+picture: true
+}
+
+R8M9 = {
+reference: "R8M9",
+name: "Sautéed Mushrooms",
+ingredients: "sautéed mushrooms, foie gras, wilted spinach, green onion",
+restrictions: ['glutenFree','dairyFree','nutAllergy','kosher','halal'],
+price: 14,
+picture: true
+}
+
+R8M10 = {
+reference: "R8M10",
+name: "Maitake Mushrooms",
+ingredients: "maitake mushrooms, smoked sea salt",
+restrictions: ['glutenFree','vegetarian','pescatarian','dairyFree','nutAllergy','kosher','halal'],
+price: 14,
+picture: true
+}
 
 //Le Pigeon
 R9M1 = {
@@ -587,6 +667,8 @@ price: 29,
 picture: true
 }
 
+//Paadee
+
 R11M1 = {
 reference: "R11M1",
 name: "Gra Prao Muu Grob",
@@ -629,5 +711,32 @@ name: "Pad Kee Mao",
 ingredients: "flat rice noodle, chicken, egg, chili, bamboo shoots, bell pepper, onion, basil",
 restrictions: ['dairyFree','nutAllergy', 'kosher', 'pescatarian'],
 price: "11",
+picture: true
+}
+
+R11M6 = {
+reference: "R11M6",
+name: "Sticky Rice",
+ingredients: "rice",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree', 'kosher', 'vegan', 'halal', 'pescatarian', 'vegetarian'],
+price: "2",
+picture: true
+}
+
+R11M7 = {
+reference: "R11M7",
+name: "Plaa Saba Yang Se-ew",
+ingredients: "mackerel, napa cabbage, garlic scallion mirin sauce, rice",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree', 'kosher', 'pescatarian'],
+price: "14",
+picture: true
+}
+
+R11M8 = {
+reference: "R11M8",
+name: "Tao Hoo Tod",
+ingredients: "tofu, crushed peanut, white sesame sauce",
+restrictions: ['dairyFree', 'glutenFree', 'kosher', 'vegan', 'halal', 'pescatarian', 'vegetarian'],
+price: "6",
 picture: true
 }

@@ -15,6 +15,7 @@ this.restrictionMatch = [];
 }
 
 //Natural Selection Restaurant Object
+
 var R1 = new Restaurant ("Natural Selection", "naturalSelection", ['european'], ["dinner"], 5, 3, "3033 NE Alberta Street, 97214", "503.328.2865", ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "hindu", "kosher", "halal"], [R1M1, R1M2, R1M3, R1M4, R1M5, R1M6, R1M7]);
 
 //Bunk Sandwiches Restaurant Object
@@ -36,13 +37,14 @@ var R6 = new Restaurant ("Screen Door", "screenDoor", ["southern","cajun"], ["br
 var R7 = new Restaurant("Luc Lac", "lucLac", ["vietnamese"], ["lunch", "dinner", "happy hour", "late night"], 4, 3, "835 SW 2nd Ave 97204", "503.222.0047",  ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R7M1, R7M2, R7M3, R7M4, R7M5, R7M6, R7M7, R7M8]);
 
 //Ox Restaurant Object
-var R8 = new Restaurant ("Ox", "ox", ["argentinian"], ["dinner"], 4, 3, "2225 NE MLK Blvd 97212", "503.284.3366", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R8M1])
+
+var R8 = new Restaurant ("Ox", "ox", ["argentinian"], ["dinner"], 4, 3, "2225 NE MLK Blvd 97212", "503.284.3366", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R8M1, R8M2, R8M3, R8M4, R8M5, R8M6, R8M7, R8M8, R8M9, R8M10])
 
 //Le Pigeon Restaurant Object
 var R9 = new Restaurant ("Le Pigeon",  "lePigeon", ["french"], ["dinner"], 5, 3, "738 E Burnside St 97214", "503.546.8796", ['glutenFree','vegetarian','pescatarian','dairyFree','hindu','kosher','halal','nutAllergy'], [R9M1, R9M2, R9M3, R9M4, R9M5, R9M6, R9M7, R9M8, R9M9, R9M10]);
 
 //Ava Gene's Restaurant Object
-var R10 = new Restaurant ("Ava Gene's", "avaGenes", ["italian"], ["dinner"], 4, 3, "3377 SE Division St 97202", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R3M1, R3M2]);
+var R10 = new Restaurant ("Ava Gene's", "avaGenes", ["italian"], ["dinner"], 4, 3, "3377 SE Division St 97202", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R10M1, R10M2, R10M3, R10M4, R10M5, R10M6, R10M7, R10M8]);
 
 //Paadee Restaurant Object
-var R11 = new Restaurant ("Paadee", "paadee", ["thai"], ["lunch","dinner"],  3, 2, "6 SE 28th Ave 97214", "503.360.1453" ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R3M1, R3M2]);
+var R11 = new Restaurant ("Paadee", "paadee", ["thai"], ["lunch","dinner"],  3, 2, "6 SE 28th Ave 97214", "503.360.1453" ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R11M1, R11M2, R11M3, R11M4, R11M5, R11M6, R11M7, R11M8]);
