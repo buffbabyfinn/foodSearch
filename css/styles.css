@@ -1,9 +1,61 @@
 body {
   font-family: 'Lora', serif !important;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Nunito', sans-serif !important;
+}
+
+.jumbotron {
+  margin-bottom: 0px !important;
+}
+
+.header {
+  background-color: #8CCD45 !important;
+  color: #55980C !important;
+  padding-left: 40px;
+  background-image: url("../img/leaf-graphic-2x.png");
+  background-repeat: no-repeat;
+  background-position: 95% bottom;
+  background-size: 15%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  clear: both;
+  z-index: 99;
+}
+
+.sidebar {
+  width: 25%;
+  float: left;
+  padding: 1.5em;
+  background-color: #EEE;
+  height: 100%;
+  position: fixed;
+  top: 195px;
+  left: 0;
+}
+
+.aboutus {
+  width: 95%;
+  padding: 1em;
+  margin: auto;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.mainbody {
+  padding: 1.5em 8em 1.5em 3em;
+  width: 75%;
+  float: right;
+  position: relative;
+  top: 195px;
 }
 
 .dietaryRestrictionsList {
@@ -28,4 +80,16 @@ h1, h2, h3, h4, h5 {
 
 .exampleResult h2, h4 {
   margin-top: 0px;
+}
+
+.foodbutton {
+  background-color: #8CCD45 !important;
+}
+
+.foodbutton:hover {
+  background-color: #80BD3E !important;
+}
+
+.foodbutton:focus {
+  outline: none !important;
 }
