@@ -412,6 +412,89 @@ price: "10.75",
 picture: true
 }
 
+// Luc Lac
+var R7M1 = {
+reference: "R7M1",
+name: "Tofu Salad",
+ingredients: "Tofu, roasted rice, sesame seasoning, shredded lettuce",
+restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal'],
+price: "6",
+picture: true
+}
+
+var R7M2 = {
+reference: "R7M2",
+name: "La Lot",
+ingredients: "minced beef, betel leaves",
+restrictions: ['kosher', 'nutAllergy', 'dairyFree', 'glutenFree'],
+price: "6",
+picture: true
+}
+
+var R7M3 = {
+reference: "R7M3",
+name: "Tom Yum",
+ingredients: "lemongrass, tamarind, shrimp, avocadoes, bell pepper, mushroom, tomato",
+restrictions: ['pescatarian', 'nutAllergy', 'dairyFree', 'glutenFree'],
+price: "9",
+picture: true
+}
+
+var R7M4 = {
+reference: "R7M4",
+name: "Jade Noodles",
+ingredients: "spinach wheat noodle, veggies, garlic mushroom soy sauce",
+restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal'],
+price: "8-9",
+picture: true
+}
+
+var R7M5 = {
+reference: "R7M5",
+name: "Sugar Cane Shrimp",
+ingredients: "vermicelli noodles, shrimp meat-wrapped sugar cane",
+restrictions: ['pescatarian', 'nutAllergy', 'dairyFree', 'glutenFree'],
+price: "11",
+picture: true
+}
+
+var R7M6 = {
+reference: "R7M4",
+name: "Beef Pho",
+ingredients: "rice noodles, beef prepared your choice, beef broth, cilantro, onion, basil, jalapeno, sprouts, lime",
+restrictions: ['kosher', 'nutAllergy', 'dairyFree', 'glutenFree'],
+price: "8-10",
+picture: true
+}
+
+var R7M7 = {
+reference: "R7M7",
+name: "Peanut Curry Stir Fry",
+ingredients: "veggies, curry coconut tamarind peanut sauce, rice",
+restrictions: ['vegetarian', 'kosher', 'pescatarian', 'dairyFree', 'halal'],
+price: "8",
+picture: true
+}
+
+var R7M8 = {
+reference: "R7M8",
+name: "Vegetarian Crispy Roll",
+ingredients: "tofu, celery, cabbage, carrots",
+restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal', 'glutenFree'],
+price: 6,
+picture: true
+}
+
+//Ox
+R8M1 = {
+reference: "R8M1",
+name: "Baked House Ricotta",
+ingredients: "Baked House Ricotta, Button Mushroom Confit, Balsamic Brown Butter, Grilled Bread",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
+price: 12,
+picture: true
+}
+
 
 //Le Pigeon
 R9M1 = {
@@ -504,75 +587,4 @@ price: 29,
 picture: true
 }
 
-// Luc Lac
-var R7M1 = {
-reference: "R7M1",
-name: "Tofu Salad",
-ingredients: "Tofu, roasted rice, sesame seasoning, shredded lettuce",
-restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal'],
-price: "6",
-picture: true
-}
 
-var R7M2 = {
-reference: "R7M2",
-name: "La Lot",
-ingredients: "minced beef, betel leaves",
-restrictions: ['kosher', 'nutAllergy', 'dairyFree', 'glutenFree'],
-price: "6",
-picture: true
-}
-
-var R7M3 = {
-reference: "R7M3",
-name: "Tom Yum",
-ingredients: "lemongrass, tamarind, shrimp, avocadoes, bell pepper, mushroom, tomato",
-restrictions: ['pescatarian', 'nutAllergy', 'dairyFree', 'glutenFree'],
-price: "9",
-picture: true
-}
-
-var R7M4 = {
-reference: "R7M4",
-name: "Jade Noodles",
-ingredients: "spinach wheat noodle, veggies, garlic mushroom soy sauce",
-restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal'],
-price: "8-9",
-picture: true
-}
-
-var R7M5 = {
-reference: "R7M5",
-name: "Sugar Cane Shrimp",
-ingredients: "vermicelli noodles, shrimp meat-wrapped sugar cane",
-restrictions: ['pescatarian', 'nutAllergy', 'dairyFree', 'glutenFree'],
-price: "11",
-picture: true
-}
-
-var R7M6 = {
-reference: "R7M4",
-name: "Beef Pho",
-ingredients: "rice noodles, beef prepared your choice, beef broth, cilantro, onion, basil, jalapeno, sprouts, lime",
-restrictions: ['kosher', 'nutAllergy', 'dairyFree', 'glutenFree'],
-price: "8-10",
-picture: true
-}
-
-var R7M7 = {
-reference: "R7M7",
-name: "Peanut Curry Stir Fry",
-ingredients: "veggies, curry coconut tamarind peanut sauce, rice",
-restrictions: ['vegetarian', 'kosher', 'pescatarian', 'dairyFree', 'halal'],
-price: "8",
-picture: true
-}
-
-var R7M8 = {
-reference: "R7M8",
-name: "Vegetarian Crispy Roll",
-ingredients: "tofu, celery, cabbage, carrots",
-restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal', 'glutenFree'],
-price: 6,
-picture: true
-}
