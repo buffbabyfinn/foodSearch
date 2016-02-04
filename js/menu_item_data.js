@@ -540,6 +540,42 @@ price: 22,
 picture: true
 }
 
+R8M7 = {
+reference: "R8M7",
+name: "Belgian Endive and Treviso",
+ingredients: "Belgian Endive and Treviso, Sherry Vinaigrette, Brûléed Pear, Spanish Chorizo, Almonds, Manchego",
+restrictions: ['glutenFree','nutAllergy'],
+price: 12,
+picture: true
+}
+
+R8M8 = {
+reference: "R8M8",
+name: "Grilled Cauliflower",
+ingredients: "Grilled Cauliflower, Tahini-Feta Purée, Fried Lemon, Arugula, Mama Lils Pickled Peppers",
+restrictions: ['glutenFree','vegetarian','pescatarian','nutAllergy','kosher','halal'],
+price: 9,
+picture: true
+}
+
+R8M9 = {
+reference: "R8M9",
+name: "Sautéed Mushrooms",
+ingredients: "Sautéed Mushrooms, Foie Gras, Wilted Spinach, Green Onion",
+restrictions: ['glutenFree','dairyFree','nutAllergy','kosher','halal'],
+price: 14,
+picture: true
+}
+
+R8M10 = {
+reference: "R8M10",
+name: "Maitake Mushrooms",
+ingredients: "Maitake Mushrooms, Smoked Sea Salt",
+restrictions: ['glutenFree','vegetarian','pescatarian','dairyFree','nutAllergy','kosher','halal'],
+price: 14,
+picture: true
+}
+
 //Le Pigeon
 R9M1 = {
 reference: "R9M1",
