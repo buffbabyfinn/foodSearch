@@ -13,15 +13,28 @@ Restaurant.prototype.menuMatcher = function(userInput) {
   var that = this.restrictionMatch;
   // debugger;
   this.menuItems.forEach(function(item) {
+<<<<<<< HEAD
+
+    var itemMatch = newSearch.limits.every(function (val) {
+=======
     var itemMatch = userInput.every(function (val) {
+>>>>>>> 36f0a0cce66eda8fcea7c0d1e9874f81927e22c1
       return item.restrictions.indexOf(val) >= 0;
     });
 
     if (itemMatch === true){
+<<<<<<< HEAD
+      restrictionMatch.push(item.name);
+    }
+  });
+
+  return this.restrictionMatch;
+=======
       that.push("<li><b>" + item.name + "</b>:<br><i>" + item.ingredients + "</i>- " + item.price + "</li>");
     }
 });
   return that;
+>>>>>>> 36f0a0cce66eda8fcea7c0d1e9874f81927e22c1
 }
 
 Restaurant.prototype.menuList = function(userInput) {
