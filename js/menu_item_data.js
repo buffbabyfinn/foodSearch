@@ -667,6 +667,97 @@ price: 29,
 picture: true
 }
 
+//Ava Gene's
+R10M1 = {
+reference: "R10M1",
+name: "Steelhead",
+ingredients: "steelhead, beans, winter greens, meyer lemon",
+restrictions: ['glutenFree','pescatarian','dairyFree','nutAllergy','halal'],
+price: 34,
+picture: true
+}
+
+R10M2 = {
+reference: "R10M2",
+name: "Lamb",
+ingredients: "lamb, leeks, apples, prunes, hazelnuts",
+restrictions: ['glutenFree','dairyFree','halal','kosher','halal'],
+price: 36,
+picture: true
+}
+
+R10M3 = {
+reference: "R10M3",
+name: "pears, daikon, walnuts, gorgonzola dolce, saba",
+ingredients: "pears, daikon, walnuts, gorgonzola dolce, saba",
+restrictions: ['vegetarian','pescatarian','glutenFree','halal','kosher','halal'],
+price: 13,
+picture: true
+}
+
+R10M4 = {
+reference: "R10M4",
+name: "carrots, sunchokes, hazelnuts, goat cheese",
+ingredients: "carrots, sunchokes, hazelnuts, goat cheese",
+restrictions: ['vegetarian','pescatarian','glutenFree','halal','kosher','halal'],
+price: 13,
+picture: true
+}
+
+R10M5 = {
+reference: "R10M5",
+name: "citrus, parsnips, pistachio, castelvetrano olives, parsley",
+ingredients: "citrus, parsnips, pistachio, castelvetrano olives, parsley",
+restrictions: ['vegan','vegetarian','pescatarian','glutenFree','halal','kosher','halal','dairyFree'],
+price: 13,
+picture: true
+}
+
+R10M6 = {
+reference: "R10M6",
+name: "ricotta, squash, walnuts, chiles",
+ingredients: "ricotta, squash, walnuts, chiles",
+restrictions: ['vegetarian','pescatarian','glutenFree','halal','kosher','halal'],
+price: 11,
+picture: true
+}
+
+R10M7 = {
+reference: "R10M7",
+name: "borlotti beans, garlic, rosemary",
+ingredients: "borlotti beans, garlic, rosemary",
+restrictions: ['vegan','vegetarian','pescatarian','glutenFree','halal','kosher','halal'],
+price: 11,
+picture: true
+}
+
+R10M8 = {
+reference: "R10M8",
+name: "pork, burdock, almonds, dates, marmellata squash, citrus",
+ingredients: "pork, burdock, almonds, dates, marmellata squash, citrus",
+restrictions: ['glutenFree','dairyFree'],
+price: 36,
+picture: true
+}
+
+R10M9 = {
+reference: "R10M9",
+name: "barley cavatelli, prosciutto, brussels sprouts, black pepper",
+ingredients: "barley cavatelli, prosciutto, brussels sprouts, black pepper",
+restrictions: ['dairyFree','nutAllergy'],
+price: 36,
+picture: true
+}
+
+R10M10 = {
+reference: "R10M10",
+name: "amish butter corn polenta",
+ingredients: "amish butter corn polenta",
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
+price: 7,
+picture: true
+}
+
 //Paadee
 
 R11M1 = {
