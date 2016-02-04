@@ -7,7 +7,7 @@ reference: "R1M1",
 name: "coconut curry soup",
 ingredients: "lemongrass, lime, brussels sprouts, carrot, herb oil",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25
+price: "11.25"
 }
 
 var R1M2 = {
@@ -15,7 +15,7 @@ reference: "R1M2",
 name: "belgian endive & treviso salad",
 ingredients: "asian pear, radish, peppers, dried cherries, dijon",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25
+price: "11.25"
 }
 
 var R1M3 = {
@@ -23,7 +23,7 @@ reference: "R1M3",
 name: "crispy polenta with trumpet royale",
 ingredients: "leek, parsnip, carrot, breakfast radish",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25
+price: "11.25"
 }
 
 var R1M4 = {
@@ -31,7 +31,7 @@ reference: "R1M4",
 name: "squash cake with caramelized apples",
 ingredients: "apricot, pumpkin mousse, raspberry, almond",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "kosher", "halal"],
-price: 11.25
+price: "11.25"
 }
 
 var R1M5 = {
@@ -39,23 +39,17 @@ reference: "R1M5",
 name: "chestnut tagliatelle pasta",
 ingredients: "lemon, shallot, balsamic, creamed greens",
 restrictions: ["vegetarian", "pescatarian", "kosher", "halal"],
-price: 11.25
+price: "11.25"
 }
 
-var R1M6 = {
-reference: "R1M6",
-name: "citrus & delicata squash salad",
-ingredients: "watercress, olives, dates, creamy sherry dressing",
-restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25
-}
+
 
 var R1M7 = {
 reference: "R1M7",
 name: "creamy herbed risotto",
 ingredients: "braised red cabbage, salsify, sunchoke, cider",
-restrictions: ["glutenFree", "vegetarian", "pescatarian", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25
+restrictions: ["glutenFree", "vegetarian", "pescatarian", "nutAllergy", "kosher", "halal"],
+price: "11.25"
 }
 
 var R1M8 = {
@@ -63,7 +57,7 @@ reference: "R1M8",
 name: "lemon tapioca parfait",
 ingredients: "huckleberry, coconut, cinnamon cookie",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
-price: 11.25
+price: "11.25"
 }
 
 //Bunk Sandwiches
@@ -72,7 +66,7 @@ reference: "R2M1",
 name: "Egg & Cheese",
 ingredients: "egg, cheese, bread roll",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: 5,
+price: "5",
 picture: true,
 }
 
@@ -81,7 +75,7 @@ reference: "R2M2",
 name: "Peanut Butter & Jelly",
 ingredients: "peanut butter, nutella, jelly, kettle chips, bread",
 restrictions: ['vegetarian','pescatarian','hindu','kosher','halal','dairyFree'],
-price: 5,
+price: "5",
 picture: true
 }
 
@@ -90,7 +84,7 @@ reference: "R2M3",
 name: "Grilled Tillamook Cheddar",
 ingredients: "cheese, tomato, bread",
 restrictions: ['vegetarian','pescatarian','nutAllergy','hindu','kosher','halal'],
-price: 6,
+price: "6",
 picture: true
 }
 
@@ -100,7 +94,7 @@ name: "Apple Cabbage Slaw",
 description: "",
 ingredients: "apple, cabage",
 restrictions: ['vegetarian','pescatarian','nutAllergy','hindu','kosher','halal','vegan', 'glutenFree', 'dairyFree'],
-price: 3,
+price: "3",
 picture: true
 }
 
@@ -110,7 +104,7 @@ name: "Marinated Garbanzo Beans",
 description: "",
 ingredients: "grabanzo beans, feta, arugala, and hot peppers",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal','vegan'],
-price: 10,
+price: "10",
 picture: true
 }
 
@@ -120,7 +114,7 @@ name: "Pork Belly Cubano",
 description: "",
 ingredients: "ham, bread, pork belly and shoulder roast, swiss, mustard, pickles",
 restrictions: ['nutAllergy', 'dairyFree'],
-price: 10,
+price: "10",
 picture: true
 }
 
@@ -130,7 +124,7 @@ name: "Oregon Albacore Tuna Melt",
 description: "",
 ingredients: "cheddar, mustard, pickles, bread",
 restrictions: ['pescatarian', 'nutAllergy'],
-price: 11,
+price: "11",
 picture: true
 }
 
@@ -140,7 +134,7 @@ name: "Fried Louisiana Gulf Shrimp Po'Boy",
 description: "",
 ingredients: "shrimp, lettuce, tomato, pickles, mayo, bread",
 restrictions: ['pescatarian', 'nutAllergy'],
-price: 11,
+price: "11",
 picture: true
 }
 
@@ -152,7 +146,7 @@ reference: "R3M1",
 name: "Nuestra Cesar",
 ingredients: "romaine lettuce, free range chicken, croutons, parmesan",
 restrictions: ['nutAllergy','kosher','halal'],
-price: 12,
+price: "12",
 picture: false
 }
 
@@ -161,7 +155,7 @@ reference: "R3M2",
 name: "Remolacha",
 ingredients: "pickled beets, organic greens, citrus, torpedo onions, walnuts",
 restrictions: ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal'],
-price: 11,
+price: "11",
 picture: false
 }
 
@@ -170,7 +164,7 @@ reference: "R3M3",
 name: "Boquerones",
 ingredients: "boquerones(sardine), chili-arbequina caviar, pickeled radish, greens",
 restrictions: ['glutenFree', 'pescatarian', 'dairyFree', 'kosher', 'nutAllergy'],
-price: 9,
+price: "9",
 picture: false
 }
 
@@ -179,7 +173,7 @@ reference: "R3M4",
 name: "Nuestras Bravas",
 ingredients: "potato, milk aioli, brava sauce",
 restrictions: ['vegetarian', 'pescatarian', 'nutAllergy', 'kosher', 'glutenFree'],
-price: 8,
+price: "8",
 picture: false
 }
 
@@ -188,7 +182,7 @@ reference: "R3M5",
 name: "Empanadilla",
 ingredients: "braised oxtail, 4 year acorn ham, havarti cheese, red padron powder",
 restrictions: ['nutAllergy', 'glutenFree'],
-price: 8,
+price: "8",
 picture: true
 }
 
@@ -197,7 +191,7 @@ reference: "R3M6",
 name: "Pa amb tomaquet",
 ingredients: "house coca bread, shredded tomato, extra virgin olive oil",
 restrictions: ['nutAllergy', 'vegetarian', 'vegan', 'pescatarian', 'kosher', 'halal', 'hindu', 'dairyFree'],
-price: 6,
+price: "6",
 picture: false
 }
 
@@ -206,7 +200,7 @@ reference: "R3M7",
 name: "Paella Jardinera",
 ingredients: "bomba rice, wild mushrooms, seasonal vegetables",
 restrictions: ['nutAllergy', 'vegetarian', 'vegan', 'pescatarian', 'kosher', 'halal', 'hindu', 'glutenFree', 'dairyFree'],
-price: 32,
+price: "32",
 picture: false
 }
 
@@ -215,7 +209,7 @@ reference: "R3M8",
 name: "Flan",
 ingredients: "catalan egg yolk custard, orange ice cream",
 restrictions: ['nutAllergy', 'vegetarian', 'pescatarian', 'kosher', 'glutenFree'],
-price: 6,
+price: "6",
 picture: false
 }
 
@@ -226,7 +220,7 @@ reference: "R4M1",
 name: "Elvis Sighting",
 ingredients: "brioche, bacon, bananas, caramel sauce, candied nuts",
 restrictions: [false],
-price: 10,
+price: "10",
 picture: true
 }
 
@@ -235,7 +229,7 @@ reference: "R4M2",
 name: "Creme Brulee French Toast",
 ingredients: "brioche, eggs, milk",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: 9,
+price: "9",
 picture: true
 }
 
@@ -244,7 +238,7 @@ reference: "R4M3",
 name: "Tofu Hash",
 ingredients: "eggs, tofu, potatoes, seasonal vegetables, toast",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: 11,
+price: "11",
 picture: true
 }
 
@@ -253,7 +247,7 @@ reference: "R4M4",
 name: "Veggie Sausage Scramble",
 ingredients: "vegan sausage, eggs, cheddar, greens, tomato confit",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: 11,
+price: "11",
 picture: true
 }
 
@@ -262,8 +256,32 @@ reference: "R4M5",
 name: "Oregon Salad",
 ingredients: "greens, beets, pear, hazelnut, chevre, sherry vinaigrette",
 restrictions: ['glutenFree','vegetarian','pescatarian','kosher','halal'],
-price: 13.00,
+price: "13",
 picture: true
+}
+
+var R4M6 = {
+reference: "R4M6",
+name: "Poutine",
+ingredients: "french fries, cheddar cheese, brown gravy",
+restrictions: [ "nutAllergy"],
+price: "7"
+}
+
+var R4M7 = {
+reference: "R4M7",
+name: "Cobb Salad",
+ingredients: "romaine, chicken, bacon, avocado, tomato, egg, blue cheese, ranch",
+restrictions: ["nutAllergy", "glutenFree"],
+price: "14"
+}
+
+var R4M8 = {
+reference: "R4M8",
+name: "Spinach Salad",
+ingredients: "baby spinach, rhubarb, asparagus, strawberries, almonds, feta, aged balsamic",
+restrictions: ["vegetarian", "pescatarian", "vegan", "glutenFree," "halal", "kosher"],
+price: "11"
 }
 
 //The Waffle Window
@@ -272,7 +290,7 @@ reference: "R5M1",
 name: "Tomato B's",
 ingredients: "waffle (eggs, milk), brie, basil, tomato, peach jam",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: "?",
+price: "4.5",
 picture: false
 }
 
@@ -281,7 +299,7 @@ reference: "R5M2",
 name: "Farm Fusion",
 ingredients: "waffle, mushrooms, spinach, roasted pepper, tomato, chevre",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: "?",
+price: "4.5",
 picture: true
 }
 
@@ -290,27 +308,66 @@ reference: "R5M3",
 name: "Nutella and Fresh Banana",
 ingredients: "waffle, nutella, whipped cream, cinnamon sugar, fudge",
 restrictions: ['vegetarian','pescatarian','kosher','halal'],
-price: "?",
+price: "4.5",
 picture: true
 }
 
+var R5M4 = {
+reference: "R5M4",
+name: "Granola and Fruit Waffle",
+ingredients: "granola, pearl sugar waffle, vanilla yogurt, fresh fruit",
+restrictions: ["vegetarian", "pescatarian", "kosher", "halal", "nutAllergy"],
+price: "4.5"
+}
+
+var R5M5 = {
+reference: "R5M5",
+name: "Blueberry Cheesecake Waffle",
+ingredients: "pearl sugar waffle, blueberry compote, cheesecake pudding, whipped cream, graham cracker",
+restrictions: ["vegetarian", "pescatarian", "kosher", "halal", "nutAllergy"],
+price: "4.5"
+}
+
+var R5M6 = {
+reference: "R5M6",
+name: "Pearl Sugar Waffle",
+ingredients: "yeast dough, pearl sugar",
+restrictions: ["vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
+price: "2.5"
+}
+
+var R5M7 = {
+reference: "R5M7",
+name: "Hot Apple Pie Waffle",
+ingredients: "pearl sugar waffle, apples, cinnamon, whipped cream, caramel sauce",
+restrictions: ["vegetarian", "pescatarian", "nutAllergy", "kosher", "halal"],
+price: "6"
+}
+
+var R5M8 = {
+reference: "R5M8",
+name: "Banana Caramel Sundae Waffle",
+ingredients: "ice cream, pearl sugar waffle, banana, banana caramel sauce, granola",
+restrictions: ["vegetarian", "pescatarian", "vegan", "nutAllergy", "kosher", "halal"],
+price: "6"
+}
 
 //Screen Door
 var R6M1 = {
 reference: "R6M1",
 name: "Crispy Fried Oysters",
 ingredients: "oysters, batter",
-restrictions: ['pescatarian','nutAllergy','halal'],
-price: 9.75,
+restrictions: ['pescatarian','nutAllergy'],
+price: "9.75",
 picture: true
 }
 
 var R6M2 = {
 reference: "R6M2",
-name: "Macroni and Cheese",
+name: "Mac and Cheese",
 ingredients: "macaroni, cheese",
-restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: 4.75,
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher'],
+price: "4.50-6.50",
 picture: true
 }
 
@@ -318,10 +375,11 @@ var R6M3 = {
 reference: "R6M3",
 name: "Hushpuppies",
 ingredients: "cornmeal, eggs, buttermilk, scallions",
-restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: 6.50,
+restrictions: ['vegetarian','pescatarian','nutAllergy','kosher'],
+price: "6.50",
 picture: true
 }
+
 
 //Le Pigeon
 
@@ -413,5 +471,115 @@ name: "Kobe Beef Salisbury Steak",
 ingredients: "mushroom and oxtail gravy, foie gras vinaigrette, fried onions",
 restrictions: ['dairyFree','nutAllergy','kosher','halal'],
 price: 29,
+picture: true
+}
+
+var R6M5 = {
+reference: "R6M5",
+name: "Texas Veggie Migas",
+ingredients: "three eggs, roasted green chiles, onion, crispy tortilla strips, pepperjack cheese, salsa verde & cilantro lime crema, flour tortillas choice of grits, cheddar grits, or roasted potatoes",
+restrictions: ['vegetarian', 'glutenFree', 'pescatarian','nutAllergy','kosher'],
+price: "10.75",
+picture: true
+}
+
+var R6M6 = {
+reference: "R6M6",
+name: "Screen Door Praline Bacon",
+ingredients: "smoked bacon, caramelized pecans, brown sugar, cayenne",
+restrictions: ['glutenFree', 'dairyFree'],
+price: "10.75",
+picture: true
+}
+
+var R6M7 = {
+reference: "R6M7",
+name: "Braised Pork Shoulder",
+ingredients: "molasses and chili, pork shoulder, bacon, ham hocks, corona beans, spicy slaw",
+restrictions: ['glutenFree, nutAllergy'],
+price: "10.75",
+picture: true
+}
+
+var R6M8 = {
+reference: "R6M8",
+name: "Seasonal Garden Salad",
+ingredients: "seasonal lettuce, fruits, vegetables",
+restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal'],
+price: "10.75",
+picture: true
+}
+
+// Luc Lac
+
+var R7M1 = {
+reference: "R7M1",
+name: "Tofu Salad",
+ingredients: "Tofu, roasted rice, sesame seasoning, shredded lettuce",
+restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal'],
+price: "6",
+picture: true
+}
+
+var R7M2 = {
+reference: "R7M2",
+name: "La Lot",
+ingredients: "minced beef, betel leaves",
+restrictions: ['kosher', 'nutAllergy', 'dairyFree', 'glutenFree'],
+price: "6",
+picture: true
+}
+
+var R7M3 = {
+reference: "R7M3",
+name: "Tom Yum",
+ingredients: "lemongrass, tamarind, shrimp, avocadoes, bell pepper, mushroom, tomato",
+restrictions: ['pescatarian', 'nutAllergy', 'dairyFree', 'glutenFree'],
+price: "9",
+picture: true
+}
+
+var R7M4 = {
+reference: "R7M4",
+name: "Jade Noodles",
+ingredients: "spinach wheat noodle, veggies, garlic mushroom soy sauce",
+restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal'],
+price: "8-9",
+picture: true
+}
+
+var R7M5 = {
+reference: "R7M5",
+name: "Sugar Cane Shrimp",
+ingredients: "vermicelli noodles, shrimp meat-wrapped sugar cane",
+restrictions: ['pescatarian', 'nutAllergy', 'dairyFree', 'glutenFree'],
+price: "11",
+picture: true
+}
+
+var R7M6 = {
+reference: "R7M4",
+name: "Beef Pho",
+ingredients: "rice noodles, beef prepared your choice, beef broth, cilantro, onion, basil, jalapeno, sprouts, lime",
+restrictions: ['kosher', 'nutAllergy', 'dairyFree', 'glutenFree'],
+price: "8-10",
+picture: true
+}
+
+var R7M7 = {
+reference: "R7M7",
+name: "Peanut Curry Stir Fry",
+ingredients: "veggies, curry coconut tamarind peanut sauce, rice",
+restrictions: ['vegetarian', 'kosher', 'pescatarian', 'dairyFree', 'halal'],
+price: "8",
+picture: true
+}
+
+var R7M8 = {
+reference: "R7M8",
+name: "Vegetarian Crispy Roll",
+ingredients: "tofu, celery, cabbage, carrots",
+restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal', 'glutenFree'],
+price: 6,
 picture: true
 }

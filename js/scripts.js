@@ -20,9 +20,9 @@ Restaurant.prototype.menuMatcher = function(userInput) {
     if (itemMatch === true){
       that.push("<li><b>" + item.name + "</b>:<br><i>" + item.ingredients + "</i>- " + item.price + "</li>");
     }
-});
+  });
   return that;
-}
+};
 
 Restaurant.prototype.menuList = function(userInput) {
 
