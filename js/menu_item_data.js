@@ -712,7 +712,7 @@ R10M7 = {
 reference: "R10M7",
 name: "Borlotti Beans, Garlic, and Rosemary",
 ingredients: "beans, garlic, rosemary",
-restrictions: ['vegan','vegetarian','pescatarian','glutenFree','halal','kosher','halal', 'nutAllergy'],
+restrictions: ['vegan','vegetarian','pescatarian','glutenFree', 'dairyFree', 'kosher','halal', 'nutAllergy'],
 price: "11",
 picture: true
 }
