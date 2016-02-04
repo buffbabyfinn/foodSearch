@@ -413,7 +413,7 @@ var R4M8 = {
 reference: "R4M8",
 name: "Spinach Salad",
 ingredients: "baby spinach, rhubarb, asparagus, strawberries, almonds, feta, aged balsamic",
-restrictions: ["vegetarian", "pescatarian", "vegan","glutenFree","halal","kosher"],
+restrictions: ["vegetarian", "pescatarian", "vegan", "glutenFree", "halal", "kosher"],
 price: "11"
 }
 
@@ -527,8 +527,12 @@ price: 4.75,
 name: "Mac and Cheese",
 ingredients: "macaroni, cheese",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher'],
+<<<<<<< HEAD
 price: "4.50-6.50",
 >>>>>>> 34bcaaab0c6b62831cc255dc45d52669f1b7827a
+=======
+price: "4.5-6.5",
+>>>>>>> 64edb23c9949c4b255f837db35815c99974b7cd7
 picture: true
 }
 
@@ -555,7 +559,7 @@ picture: true
 // }
 =======
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher'],
-price: "6.50",
+price: "6.5",
 picture: true
 }
 
@@ -664,7 +668,7 @@ reference: "R7M8",
 name: "Vegetarian Crispy Roll",
 ingredients: "tofu, celery, cabbage, carrots",
 restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal', 'glutenFree'],
-price: 6,
+price: "6",
 picture: true
 }
 
@@ -672,17 +676,17 @@ picture: true
 R8M1 = {
 reference: "R8M1",
 name: "Baked House Ricotta",
-ingredients: "Baked House Ricotta, Button Mushroom Confit, Balsamic Brown Butter, Grilled Bread",
+ingredients: "baked house ricotta, button mushroom confit, balsamic brown butter, grilled bread",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: 12,
+price: "12",
 picture: true
 }
 
 R8M2 = {
 reference: "R8M2",
 name: "Bruschetta of Dungeness Crab",
-ingredients: "Bruschetta of Dungeness Crab, Avocado, Cucumber, Radish, Shiso",
-restrictions: ['glutenFree','pescatarian','dairyFree','nutAllergy','halal'],
+ingredients: "toast, dungeness crab, avocado, cucumber, radish, shiso",
+restrictions: ['pescatarian','dairyFree','nutAllergy'],
 price: 14,
 picture: true
 }
@@ -690,8 +694,8 @@ picture: true
 R8M3 = {
 reference: "R8M3",
 name: "Spicy Braised Beef Tripe",
-ingredients: "Spicy Braised Beef Tripe and Octopus, Mint Aïoli, Crispy Sunchoke",
-restrictions: ['glutenFree','dairyFree','nutAllergy','halal'],
+ingredients: "beef tripe and octopus, mint aïoli, crispy sunchoke",
+restrictions: ['glutenFree','dairyFree','nutAllergy','kosher'],
 price: 13,
 picture: true
 }
@@ -699,8 +703,8 @@ picture: true
 R8M4 = {
 reference: "R8M4",
 name: "Fresh Clam Chowder",
-ingredients: "Fresh Clam Chowder, Smoked Marrow Bone, Green Onion, Jalapeño",
-restrictions: ['glutenFree','pescatarian','nutAllergy','halal'],
+ingredients: "clam chowder, smoked marrow, green onion, jalapeño",
+restrictions: ['glutenFree','nutAllergy','halal'],
 price: 14,
 picture: true
 }
@@ -708,7 +712,7 @@ picture: true
 R8M5 = {
 reference: "R8M5",
 name: "Flanken-Style Beef Short Rib",
-ingredients: "Flanken-Style Beef Short Rib",
+ingredients: "beef short rib",
 restrictions: ['glutenFree','dairyFree','nutAllergy','halal','kosher'],
 price: 24,
 picture: true
@@ -717,8 +721,8 @@ picture: true
 R8M6 = {
 reference: "R8M6",
 name: "Wood-Fired Trout",
-ingredients: "Wood-Fired Trout, Black Gold Fingerlings, Capers, Herbs",
-restrictions: ['glutenFree','pescatarian','dairyFree','nutAllergy','halal'],
+ingredients: "wood-fired trout, black gold fingerlings, capers, herbs",
+restrictions: ['glutenFree','pescatarian','dairyFree','nutAllergy','kosher'],
 price: 22,
 picture: true
 }
@@ -726,8 +730,8 @@ picture: true
 R8M7 = {
 reference: "R8M7",
 name: "Belgian Endive and Treviso",
-ingredients: "Belgian Endive and Treviso, Sherry Vinaigrette, Brûléed Pear, Spanish Chorizo, Almonds, Manchego",
-restrictions: ['glutenFree','nutAllergy'],
+ingredients: "belgian endive, treviso, sherry vinaigrette, brûléed pear, spanish chorizo, almonds, manchego",
+restrictions: ['glutenFree'],
 price: 12,
 picture: true
 }
@@ -735,7 +739,7 @@ picture: true
 R8M8 = {
 reference: "R8M8",
 name: "Grilled Cauliflower",
-ingredients: "Grilled Cauliflower, Tahini-Feta Purée, Fried Lemon, Arugula, Mama Lils Pickled Peppers",
+ingredients: "grilled cauliflower, tahini-feta purée, fried lemon, arugula, Mama Lils Pickled Peppers",
 restrictions: ['glutenFree','vegetarian','pescatarian','nutAllergy','kosher','halal'],
 price: 9,
 picture: true
@@ -744,7 +748,7 @@ picture: true
 R8M9 = {
 reference: "R8M9",
 name: "Sautéed Mushrooms",
-ingredients: "Sautéed Mushrooms, Foie Gras, Wilted Spinach, Green Onion",
+ingredients: "sautéed mushrooms, foie gras, wilted spinach, green onion",
 restrictions: ['glutenFree','dairyFree','nutAllergy','kosher','halal'],
 price: 14,
 picture: true
@@ -753,7 +757,7 @@ picture: true
 R8M10 = {
 reference: "R8M10",
 name: "Maitake Mushrooms",
-ingredients: "Maitake Mushrooms, Smoked Sea Salt",
+ingredients: "maitake mushrooms, smoked sea salt",
 restrictions: ['glutenFree','vegetarian','pescatarian','dairyFree','nutAllergy','kosher','halal'],
 price: 14,
 picture: true
@@ -765,7 +769,7 @@ reference: "R9M1",
 name: "Butter Lettuce",
 ingredients: "blue cheese, chives, radish",
 restrictions: ['glutenFree','vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: 10,
+price: "10",
 picture: true
 }
 
@@ -844,7 +848,7 @@ picture: true
 R9M10 = {
 reference: "R9M10",
 name: "Kobe Beef Salisbury Steak",
-ingredients: "mushroom and oxtail gravy, foie gras vinaigrette, fried onions",
+ingredients: "mushroom and oxtail gravy, foie gras vinaigrette, fried onion",
 restrictions: ['dairyFree','nutAllergy','kosher','halal'],
 price: 29,
 picture: true
@@ -940,4 +944,90 @@ restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
 price: 7,
 picture: true
 }
+<<<<<<< HEAD
 >>>>>>> 34bcaaab0c6b62831cc255dc45d52669f1b7827a
+=======
+
+//Paadee
+
+R11M1 = {
+reference: "R11M1",
+name: "Gra Prao Muu Grob",
+ingredients: "Pork belly, green bean, basil, garlic, chili",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree'],
+price: "14-15",
+picture: true
+}
+
+R11M2 = {
+reference: "R11M2",
+name: "Pad Ma Khua",
+ingredients: "japanese eggplant, red bell pepper, scallion, onion, basil, sweet chili paste",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree', 'kosher', 'vegan', 'halal', 'pescatarian', 'vegetarian'],
+price: "10-13",
+picture: true
+}
+
+R11M3 = {
+reference: "R11M3",
+name: "Larb Hed",
+ingredients: "button mushroom, roasted rice, shallot, mint, scallion, chili-lime dressing",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree', 'kosher', 'vegan', 'halal', 'pescatarian', 'vegetarian'],
+price: "8",
+picture: true
+}
+
+R11M4 = {
+reference: "R11M4",
+name: "Kanom Jeen Gang Keaw Gai",
+ingredients: "green curry, noodle, chicken, Thai eggplant, bamboo shoot, red bell pepper, grachai, basil",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree', 'kosher', 'vegan', 'halal', 'pescatarian', 'vegetarian'],
+price: "10-13",
+picture: true
+}
+
+R11M5 = {
+reference: "R11M5",
+name: "Pad Kee Mao",
+ingredients: "flat rice noodle, chicken, egg, chili, bamboo shoots, bell pepper, onion, basil",
+restrictions: ['dairyFree','nutAllergy', 'kosher', 'pescatarian'],
+price: "11",
+picture: true
+}
+
+R11M6 = {
+reference: "R11M6",
+name: "Sticky Rice",
+ingredients: "rice",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree', 'kosher', 'vegan', 'halal', 'pescatarian', 'vegetarian'],
+price: "2",
+picture: true
+}
+
+R11M7 = {
+reference: "R11M7",
+name: "Plaa Saba Yang Se-ew",
+ingredients: "mackerel, napa cabbage, garlic scallion mirin sauce, rice",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree', 'kosher', 'pescatarian'],
+price: "14",
+picture: true
+}
+
+R11M8 = {
+reference: "R11M8",
+name: "Tao Hoo Tod",
+ingredients: "tofu, crushed peanut, white sesame sauce",
+restrictions: ['dairyFree', 'glutenFree', 'kosher', 'vegan', 'halal', 'pescatarian', 'vegetarian'],
+price: "6",
+picture: true
+}
+
+R11M9 = {
+reference: "R11M9",
+name: "Puu Pad Pong Gari",
+ingredients: "lump crab, egg, celery, onion, bell pepper, curry sauce",
+restrictions: ['dairyFree', 'glutenFree', 'pescatarian'],
+price: "18",
+picture: true
+}
+>>>>>>> 64edb23c9949c4b255f837db35815c99974b7cd7

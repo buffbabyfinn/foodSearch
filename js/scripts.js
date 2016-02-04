@@ -109,10 +109,15 @@ $(document).ready(function() {
 
     newSearch.results.forEach(function(restaurant) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       $(".restaurantResults").append("<div class='exampleResult " + restaurant.reference +"'><div class='row'><div class='col-md-7'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>1234 Location Street</h4><p class='resultInformation'>Basic information about the restaurant will go in here if available.</p></div><div class='col-md-5 pull-right'><ul>" + restaurant.menuList(newSearch.limits) + "</ul></div></div></div></div>");
 =======
       $(".restaurantResults").append("<div class='exampleResult " + restaurant.reference +"'><div class='row'><div class='col-md-7'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>" + restaurant.location + "</h4><p class='resultInformation'>Basic information about the restaurant will go in here if available.</p></div><div class='col-md-5 pull-right'><ul>" + restaurant.menuList(newSearch.limits) + "</ul></div></div></div></div>");
 >>>>>>> 34bcaaab0c6b62831cc255dc45d52669f1b7827a
+=======
+      $(".restaurantResults").append("<div class='exampleResult " + restaurant.reference +"'><div class='row'><div class='col-md-7'><h2><span id='resultName'>" + restaurant.name + "</span></h2><h4 class='resultCuisine'>" + restaurant.cuisine +  "</h4><h4 class='resultLocation'>" + restaurant.location + "</h4><p class='resultInformation'>" + restaurant.phone + "</p></div><div class='col-md-5 pull-right'><ul>" + restaurant.menuList(newSearch.limits) + "</ul></div></div></div></div>");
+
+>>>>>>> 64edb23c9949c4b255f837db35815c99974b7cd7
 
       restaurant.restrictionMatch = [];
     });
