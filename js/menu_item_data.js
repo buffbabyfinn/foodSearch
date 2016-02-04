@@ -363,7 +363,7 @@ reference: "R6M2",
 name: "Mac and Cheese",
 ingredients: "macaroni, cheese",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher'],
-price: "4.50-6.50",
+price: "4.5-6.5",
 picture: true
 }
 
@@ -372,7 +372,7 @@ reference: "R6M3",
 name: "Hushpuppies",
 ingredients: "cornmeal, eggs, buttermilk, scallions",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher'],
-price: "6.50",
+price: "6.5",
 picture: true
 }
 
@@ -481,7 +481,7 @@ reference: "R7M8",
 name: "Vegetarian Crispy Roll",
 ingredients: "tofu, celery, cabbage, carrots",
 restrictions: ['vegetarian', 'kosher', 'pescatarian', 'nutAllergy', 'vegan', 'dairyFree', 'halal', 'glutenFree'],
-price: 6,
+price: "6",
 picture: true
 }
 
@@ -489,9 +489,9 @@ picture: true
 R8M1 = {
 reference: "R8M1",
 name: "Baked House Ricotta",
-ingredients: "Baked House Ricotta, Button Mushroom Confit, Balsamic Brown Butter, Grilled Bread",
+ingredients: "baked house ricotta, button mushroom confit, balsamic brown butter, grilled bread",
 restrictions: ['vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: 12,
+price: "12",
 picture: true
 }
 
@@ -502,7 +502,7 @@ reference: "R9M1",
 name: "Butter Lettuce",
 ingredients: "blue cheese, chives, radish",
 restrictions: ['glutenFree','vegetarian','pescatarian','nutAllergy','kosher','halal'],
-price: 10,
+price: "10",
 picture: true
 }
 
@@ -581,8 +581,53 @@ picture: true
 R9M10 = {
 reference: "R9M10",
 name: "Kobe Beef Salisbury Steak",
-ingredients: "mushroom and oxtail gravy, foie gras vinaigrette, fried onions",
+ingredients: "mushroom and oxtail gravy, foie gras vinaigrette, fried onion",
 restrictions: ['dairyFree','nutAllergy','kosher','halal'],
 price: 29,
+picture: true
+}
+
+R11M1 = {
+reference: "R11M1",
+name: "Gra Prao Muu Grob",
+ingredients: "Pork belly, green bean, basil, garlic, chili",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree'],
+price: "14-15",
+picture: true
+}
+
+R11M2 = {
+reference: "R11M2",
+name: "Pad Ma Khua",
+ingredients: "japanese eggplant, red bell pepper, scallion, onion, basil, sweet chili paste",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree', 'kosher', 'vegan', 'halal', 'pescatarian', 'vegetarian'],
+price: "10-13",
+picture: true
+}
+
+R11M3 = {
+reference: "R11M3",
+name: "Larb Hed",
+ingredients: "button mushroom, roasted rice, shallot, mint, scallion, chili-lime dressing",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree', 'kosher', 'vegan', 'halal', 'pescatarian', 'vegetarian'],
+price: "8",
+picture: true
+}
+
+R11M4 = {
+reference: "R11M4",
+name: "Kanom Jeen Gang Keaw Gai",
+ingredients: "green curry, noodle, chicken, Thai eggplant, bamboo shoot, red bell pepper, grachai, basil",
+restrictions: ['dairyFree','nutAllergy', 'glutenFree', 'kosher', 'vegan', 'halal', 'pescatarian', 'vegetarian'],
+price: "10-13",
+picture: true
+}
+
+R11M5 = {
+reference: "R11M5",
+name: "Pad Kee Mao",
+ingredients: "flat rice noodle, chicken, egg, chili, bamboo shoots, bell pepper, onion, basil",
+restrictions: ['dairyFree','nutAllergy', 'kosher', 'pescatarian'],
+price: "11",
 picture: true
 }
