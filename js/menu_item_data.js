@@ -323,14 +323,95 @@ price: 6.50,
 picture: true
 }
 
-//Maurice
+//Le Pigeon
 
-//
-// var R7M = {
-// reference: "R7M",
-// name: "",
-// ingredients: "",
-// restrictions: [],
-// price: 0,
-// picture: true
-// }
+
+R9M1 = {
+reference: "R9M1",
+name: "Butter Lettuce",
+ingredients: "blue cheese, chives, radish",
+restrictions: ['glutenFree','vegetarian','pescatarian','nutAllergy','kosher','halal'],
+price: 10,
+picture: true
+}
+
+R9M2 = {
+reference: "R9M2",
+name: "Bay Scallop Crudo",
+ingredients: "celery root, green apple, jalapeno, mezcal",
+restrictions: ['pescatarian','dairyFree','nutAllergy'],
+price: 10,
+picture: true
+}
+
+R9M3 = {
+reference: "R9M3",
+name: "Dry Pigeon Ramen",
+ingredients: "pigeon confit, miso, kabocha squash, orange, enoki",
+restrictions: ['nutAllergy','dairyFree','kosher','halal'],
+price: 18,
+picture: true
+}
+
+R9M4 = {
+reference: "R9M4",
+name: "Chicken Fried Lamb Neck",
+ingredients: "herbed grits, sweet habanero honey, spiced carrot, dill",
+restrictions: ['nutAllergy','dairyFree','kosher','halal'],
+price: 17,
+picture: true
+}
+
+R9M5 = {
+reference: "R9M5",
+name: "Beef Cheek Bourguignon",
+ingredients: "potato latke, red onion marmalade, carrots montreal",
+restrictions: ['glutenFree','nutAllergy','dairyFree','kosher','halal'],
+price: 29,
+picture: true
+}
+
+R9M6 = {
+reference: "R9M6",
+name: "Truffle Parmesan Risotto",
+ingredients: "carrot à l’orange, peanut, squash salad",
+restrictions: ['vegetarian','pescatarian','kosher','halal'],
+price: 27,
+picture: true
+}
+
+R9M7 = {
+reference: "R9M7",
+name: "Grilled Pigeon",
+ingredients: "dirty couscous, fried cauliflower puree, pine nuts, onion raisin relish",
+restrictions: ['glutenFree','kosher','halal'],
+price: 31,
+picture: true
+}
+
+R9M8 = {
+reference: "R9M8",
+name: "Pork Belly",
+ingredients: "blackened octopus, black eyed peas, fennel mostada, chili mayo",
+restrictions: ['glutenFree','nutAllergy'],
+price: 28,
+picture: true
+}
+
+R9M9 = {
+reference: "R9M9",
+name: "Foie Gras and Uni",
+ingredients: "wild rice pancake, sour cream, soy maple",
+restrictions: ['nutAllergy','halal'],
+price: 25,
+picture: true
+}
+
+R9M10 = {
+reference: "R9M10",
+name: "Kobe Beef Salisbury Steak",
+ingredients: "mushroom and oxtail gravy, foie gras vinaigrette, fried onions",
+restrictions: ['dairyFree','nutAllergy','kosher','halal'],
+price: 29,
+picture: true
+}
