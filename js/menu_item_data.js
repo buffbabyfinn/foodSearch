@@ -64,6 +64,7 @@ name: "lemon tapioca parfait",
 ingredients: "huckleberry, coconut, cinnamon cookie",
 restrictions: ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "nutAllergy", "kosher", "halal"],
 price: "11.25"
+}
 
 //Bunk Sandwiches
 var R2M1 = {
@@ -840,4 +841,3 @@ restrictions: ['dairyFree', 'glutenFree', 'pescatarian'],
 price: "18",
 picture: true
 }
->>>>>>> 64edb23c9949c4b255f837db35815c99974b7cd7
