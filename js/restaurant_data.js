@@ -1,6 +1,7 @@
 //this file is used to store the restaurant objects
 
 function Restaurant (name, reference, cuisine, services, rating, price_range, location, phone, restrictions, menuItems, information, restrictionMatch) {
+
 this.name = name;
 this.reference = reference;
 this.cuisine = cuisine;
@@ -14,6 +15,7 @@ this.menuItems = menuItems;
 this.information = information;
 this.restrictionMatch = [];
 }
+
 
 
 var R1 = new Restaurant ("Natural Selection", "naturalSelection", ['european'], ["dinner"], 5, 3, "3033 NE Alberta Street, 97214", "503.328.2865", ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "hindu", "kosher", "halal"], [R1M1, R1M2, R1M3, R1M4, R1M5, R1M6, R1M7],"Natural Selection is a restaurant built on vegetables, fruits and grains.  Served in a warm european-style setting, the cuisine features both rustic and modern cooking techniques while highlighting the flavors of  France, Italy and Spain.");
