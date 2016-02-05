@@ -98,6 +98,7 @@ a:hover {
   padding: 1.5em;
   border: 1px solid #EEE;
   border-radius: 6px;
+  text-align: center;
 }
 
 .dietaryRestrictionsList input[type=checkbox] {
@@ -124,6 +125,8 @@ a:hover {
   background-color: #CEBEA1 !important;
   color: #463854;
   font-family: 'Nunito', sans-serif !important;
+  margin-left: 42%;
+  margin-top: 15px;
 }
 
 .foodbutton:hover {
