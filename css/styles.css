@@ -15,6 +15,15 @@ h1, h2, h3, h4, h5 {
   font-family: 'Nunito', sans-serif !important;
 }
 
+a {
+  color: #57971E !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #463854 !important;
+}
+
 .jumbotron {
   margin-bottom: 0px !important;
 }
@@ -47,10 +56,11 @@ h1, h2, h3, h4, h5 {
   position: fixed;
   top: 231px;
   left: 0;
+  text-align: center;
 }
 
 .aboutus {
-  width: 95%;
+  width: 85%;
   padding: 1em;
   margin: auto;
   background-color: #EEE;
