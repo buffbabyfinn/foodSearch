@@ -66,6 +66,12 @@ h1, h2, h3, h4, h5 {
   top: 231px;
 }
 
+.restaurantPicture{
+  width: 200px;
+  float: left;
+  margin: 0 15px 5px 5px;
+}
+
 .foodintro {
   width: 100%;
   padding: 1em 1.5em;
@@ -95,7 +101,7 @@ h1, h2, h3, h4, h5 {
   background-color: white;
   border-radius: 6px;
   margin-top: 20px;
-  padding: 1.5em;
+  padding: 1.7em;
   color: #463854;
 }
 
