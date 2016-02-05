@@ -1,6 +1,6 @@
 //this file is used to store the restaurant objects
 
-function Restaurant (name, reference, cuisine, services, rating, price_range, location, phone, restrictions, menuItems, information, restrictionMatch) {
+function Restaurant (name, reference, cuisine, services, rating, price_range, location, phone, restrictions, menuItems, information, picture, restrictionMatch) {
 this.name = name;
 this.reference = reference;
 this.cuisine = cuisine;
