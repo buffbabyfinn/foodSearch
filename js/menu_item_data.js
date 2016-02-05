@@ -210,7 +210,7 @@ var R4M1 = {
 reference: "R4M1",
 name: "Elvis Sighting",
 ingredients: "brioche, bacon, banana, caramel sauce, candied nuts",
-restrictions: [false],
+restrictions: [],
 price: "10",
 picture: true
 }
