@@ -210,7 +210,7 @@ var R4M1 = {
 reference: "R4M1",
 name: "Elvis Sighting",
 ingredients: "brioche, bacon, banana, caramel sauce, candied nuts",
-restrictions: [],
+restrictions: [false],
 price: "10",
 picture: true
 }
@@ -512,7 +512,7 @@ R8M4 = {
 reference: "R8M4",
 name: "Fresh Clam Chowder",
 ingredients: "clam chowder, smoked marrow, green onion, jalapeño",
-restrictions: ['glutenFree','nutAllergy','halal'],
+restrictions: ['glutenFree','nutAllergy'],
 price: "14",
 picture: true
 }
@@ -621,7 +621,7 @@ R9M6 = {
 reference: "R9M7",
 name: "Grilled Pigeon",
 ingredients: "dirty couscous, fried cauliflower puree, pine nuts, onion raisin relish",
-restrictions: ['glutenFree','kosher','halal'],
+restrictions: ['glutenFree','kosher'],
 price: "31",
 picture: true
 }

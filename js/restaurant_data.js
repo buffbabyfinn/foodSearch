@@ -1,6 +1,6 @@
 //this file is used to store the restaurant objects
 
-function Restaurant (name, reference, cuisine, services, rating, price_range, location, phone, restrictions, menuItems, information, picture, restrictionMatch) {
+function Restaurant (name, reference, cuisine, services, rating, price_range, location, phone, restrictions, menuItems, information, restrictionMatch) {
 this.name = name;
 this.reference = reference;
 this.cuisine = cuisine;
@@ -15,7 +15,6 @@ this.information = information;
 this.restrictionMatch = [];
 }
 
-//Natural Selection Restaurant Object
 
 var R1 = new Restaurant ("Natural Selection", "naturalSelection", ['european'], ["dinner"], 5, 3, "3033 NE Alberta Street, 97214", "503.328.2865", ["glutenFree", "vegetarian", "pescatarian", "vegan", "dairyFree", "hindu", "kosher", "halal"], [R1M1, R1M2, R1M3, R1M4, R1M5, R1M6, R1M7],"Natural Selection is a restaurant built on vegetables, fruits and grains.  Served in a warm european-style setting, the cuisine features both rustic and modern cooking techniques while highlighting the flavors of  France, Italy and Spain.");
 
@@ -38,7 +37,7 @@ var R6 = new Restaurant ("Screen Door", "screenDoor", ["southern","cajun"], ["br
 var R7 = new Restaurant("Luc Lac", "lucLac", ["vietnamese"], ["lunch", "dinner", "happy hour", "late night"], 4, 3, "835 SW 2nd Ave 97204", "503.222.0047",  ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R7M1, R7M2, R7M3, R7M4, R7M5, R7M6, R7M7, R7M8], "We are just one big, pho sling’n, fish sauce cookin', cocktail pourin', Portland lovin' family.");
 
 //Ox Restaurant Object
-var R8 = new Restaurant ("Ox", "ox", ["argentinian"], ["dinner"], 4, 3, "2225 NE MLK Blvd 97212", "503.284.3366", ['glutenFree','vegetarian','pescatarian','vegan','dairyFree','hindu','kosher','halal','nutAllergy'], [R8M1, R8M2, R8M3, R8M4, R8M5, R8M6, R8M7, R8M8, R8M9, R8M10], "​OX Restaurant finds inspiration in the wood-fired grilling tradition of Argentina, and with it, the culinary heritage of Spain, France and Italy.")
+var R8 = new Restaurant ("Ox", "ox", ["argentinian"], ["dinner"], 4, 3, "2225 NE MLK Blvd 97212", "503.284.3366", ['glutenFree','vegetarian','pescatarian','dairyFree','hindu','kosher','halal','nutAllergy'], [R8M1, R8M2, R8M3, R8M4, R8M5, R8M6, R8M7, R8M8, R8M9, R8M10], "​OX Restaurant finds inspiration in the wood-fired grilling tradition of Argentina, and with it, the culinary heritage of Spain, France and Italy.")
 
 //Le Pigeon Restaurant Object
 var R9 = new Restaurant ("Le Pigeon",  "lePigeon", ["french"], ["dinner"], 5, 3, "738 E Burnside St 97214", "503.546.8796", ['glutenFree','vegetarian','pescatarian','dairyFree','hindu','kosher','halal','nutAllergy'], [R9M1, R9M2, R9M3, R9M4, R9M5, R9M6, R9M7, R9M8, R9M9], "Le Pigeon serves adventurous French-inspired food, along with a varied selection of wines in an intimate dining room on Portland’s East Burnside Street. We take reservations at our communal tables, and offer our chef's counter for walk-ins.");
