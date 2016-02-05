@@ -40,13 +40,13 @@ Restaurant.prototype.menuList = function() {
 
 Restaurant.prototype.colorChange = function() {
   if (this.restrictionMatch.length >= 7){
-    $('.' + this.reference).css("background-color", "#2C8D32");
+    $('.' + this.reference).css("background-color", "#72B239");
   }
   if (this.restrictionMatch.length <= 6 && this.restrictionMatch.length >= 4){
-    $('.' + this.reference).css("background-color", "#70C574");
+    $('.' + this.reference).css("background-color", "#97D263");
   }
   if (this.restrictionMatch.length < 4 && this.restrictionMatch.length > 0){
-    $('.' + this.reference).css("background-color", "#B4FEB6");
+    $('.' + this.reference).css("background-color", "#C0EF97");
   }
 }
 
