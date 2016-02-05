@@ -51,19 +51,11 @@ h1, h2, h3, h4, h5 {
 
 .aboutus {
   width: 95%;
-<<<<<<< HEAD
   padding: 1em;
   margin: auto;
   background-color: #EEE;
   border-radius: 6px;
   text-align: center;
-=======
-  height: 200px;
-  padding: 1em;
-  margin: auto;
-  background-color: white;
-  border-radius: 6px;
->>>>>>> 5c945f44e3d35a83c39226faf9949025eaf98fb2
 }
 
 .mainbody {
@@ -113,13 +105,13 @@ h1, h2, h3, h4, h5 {
 }
 
 .foodbutton {
-  background-color: #8CCD45 !important;
+  background-color: #CEBEA1 !important;
   color: #463854;
   font-family: 'Nunito', sans-serif !important;
 }
 
 .foodbutton:hover {
-  background-color: #80BD3E !important;
+  background-color: #B5A27F !important;
 }
 
 .foodbutton:focus {
