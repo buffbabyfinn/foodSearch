@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Nunito|Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" charset="utf-8">
+    <script type="text/javascript" src="js/jquery-1.12.0.js"></script>
+    <script type="text/javascript" src="js/menu_item_data.js"></script>
+    <script type="text/javascript" src="js/restaurant_data.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+
+    <title>ChewIt</title>
+  </head>
+  <body>
+    <div class="header jumbotron">
+      <h1>ChewIt</h1>
+      <h3>Just chew it.</h3>
+    </div>
+    <div id="wrapper">
+      <div class="sidebar">
+        <div class="aboutus">
+          <p>Got dietary restrictions, but still want to enjoy all the great restaurants Portland has to offer? Let us help!</p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="mainbody wrapper">
+      <form id="dietaryRestrictionsList">
+        <h2>Choose one restriction, choose them all.</h2>
+        <p>Our algorithm is customizable to give you exactly what you want: the food you like and can eat. All your matching results will be sorted by relevancy to your needs!</p>
+        <hr>
+        <input type="checkbox" value="glutenFree" id="glutenFree" name="dietaryOption">
+        <label for="glutenFree">Gluten Free</label>
+
+        <input type="checkbox" value="vegetarian" id="vegetarian" name="dietaryOption">
+        <label for="vegetarian">Vegetarian</label>
+
+        <input type="checkbox" value="pescatarian" id="pescatarian" name="dietaryOption">
+        <label for="pescatarian">Pescatarian</label>
+
+        <input type="checkbox" value="dairyFree" id="dairyFree" name="dietaryOption">
+        <label for="dairyFree">Dairy Free</label>
+
+        <input type="checkbox" value="nutAllergy" id="nutAllergy" name="dietaryOption">
+        <label for="nutAllergy">Nut Allergy</label>
+
+        <input type="checkbox" value="kosher" id="kosher" name="dietaryOption">
+        <label for="kosher">Kosher</label>
+
+        <input type="checkbox" value="halal" id="halal" name="dietaryOption">
+        <label for="halal">Halal</label>
+
+        <input type="checkbox" value="vegan" id="vegan" name="dietaryOption">
+        <label for="vegan">Vegan</label>
+        <input type="text" placeholder="Cuisine - ex: Mexican, Brunch, etc." class="form-control cuisine">
+        <br>
+        <button class="btn btn-md foodbutton" type="submit">Find me food!</button>
+      </form>
+      <hr>
+      <div class="restaurantResults">
+
+
+
+      </div>
+    </div>
+
+
+
+    </div>
+
+  </body>
+</html>
